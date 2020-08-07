@@ -1,0 +1,251 @@
+backend:
+  name: github
+  repo: githubusername/yourrepositoryname # Path to your GitHub repository
+  branch: master # Branch to update (master by default)
+  site_domain: yoursite.netlify.app #Your site on netlify
+  use_graphql: true
+
+publish_mode: editorial_workflow
+show_preview_links: true
+display_url: https://yoursite.netlify.app
+logo_url: https://yoursite.netlify.app/uploads/face.jpg
+
+# Do NOT edit below this line
+
+media_folder: "uploads" # Media files will be stored in the repo under /uploads
+public_folder: "../uploads"
+
+collections:
+  - name: "posts" # Used in routes, e.g., /admin/collections/blog
+    label: "Posts" # Used in the UI
+    label_singular: "Post"
+    folder: "_posts/" # The path to the folder where the documents are stored
+    editor:
+      preview: false
+    description: "These are your existing blog posts. Click -New Post- to create a new post."
+    create: true # Allow users to create new documents in this collection
+    media_folder: "/uploads"
+    public_folder: "../uploads"
+    summary: "{{title}} - {{day}}/{{month}}/{{year}}"
+    preview_path: "{{year}}/{{month}}/{{day}}/{{title}}"
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "post"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false, hint: "This image will appear at the top of your post"}
+      - {label: "Caption", name: "caption", widget: "string", required: false}
+      - {label: "Comments", name: "comments", widget: "boolean", required: false, hint: "If you setup your Disqus account then turn this on"}
+      - {label: "Body", name: "body", widget: "markdown", hint: "You can type striaght into this field and use the toolbar to select styles. You can also use markdown directly when you switch this off. In markdown mode, you can also add HTML."}
+
+
+  - name: "pages"
+    label: "Pages" # Used in the UI
+    label_singular: "Page"
+    description: "These are seperate pages from the blog. Not date ordered, but simply available from the menu if you turn that setting on."
+    folder: "pages/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    delete: false
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: "uploads"
+    public_folder: "../uploads"
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Permalink", name: "permalink", widget: "string"}
+      - {label: "Publish Date", name: "date", widget: "datetime"}
+      - {label: "Show on the menu?", name: "show", widget: "boolean", default: false, hint: "If this is switched on, the link will show on the menubar to the right."}
+      - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
+      - {label: "Body", name: "body", widget: "markdown"}
+
+# uncomment out the following collection block if you want to use a home page rather than the blog on the home page. This needs to be done after you have changed the settings in the _config.yml file in the root of your project. DO NOT UNCOMMENT this paragraph!
+
+  # - name: "homepageitems"
+  #   label: "Home Page Blocks" # Used in the UI
+  #   label_singular: "Block"
+  #   description: "You can have up to 4 blocks on the home page with an image and some text. You cannot add any here but you can unpublsh any of the 4. To edit the home page main text and image, edit the page called home in the pages."
+  #   folder: "_homepageitems/" # The path to the folder where the documents are stored
+  #   create: false # Allow users to create new documents in this collection
+  #   delete: false
+  #   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   media_folder: "uploads"
+  #   public_folder: "../uploads"
+  #   editor:
+  #     preview: false
+  #   fields: # The fields for each document, usually in front matter
+  #     - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
+  #     - {label: "Title", name: "title", widget: "string"}
+  #     - {label: "Publish Date", name: "date", widget: "datetime"}
+  #     - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false}
+  #     - {label: "Body", name: "body", widget: "markdown"}
+
+  - label: "Settings"
+    name: "data"
+    show_preview_links: false
+    description: "These are the settings for the site. This includes the name and description of your blog and your social media accounts."
+    editor:
+      preview: false
+    files:
+      - label: "General Critical Settings for your Web site"
+        name: "general"
+        file: "_data/settings.yml"
+        fields:
+          - label: "Title of the Site"
+            name: "title"
+            widget: "string"
+            required: true
+            hint: "A short title of the site to be displayed top left"
+          - label: "Description"
+            name: "description"
+            widget: "string"
+            hint: "This is used in the metadata of the site. Good for search engines."
+            required: false
+          - label: "Text in the Banner"
+            name: "header_text"
+            widget: "string"
+            required: false
+            hint: "This will appear above the manin image on the home page."
+          - label: "Text in the Footer"
+            name: "footer_text"
+            widget: "string"
+            required: true
+            hint: "You can put the copyright info in here"
+          - label: "Home Page Image"
+            name: "header_feature_image"
+            widget: "image"
+            allow_multiple: false
+            hint: "This image will show on the home page. It needs to be a minimum of 1000 pixels wide."
+            required: false
+          - label: "Logo Image top left"
+            name: "logo"
+            widget: "image"
+            allow_multiple: false
+            hint: "Note: You are simply replacing this image with the same name. Do NOT rename. This image will show on all pages. It needs to be a maximum of 70 pixels square."
+            required: true
+          - label: "Favicon"
+            name: "favicon"
+            widget: "image"
+            allow_multiple: false
+            hint: "This needs to be an ICO type image. Note: You are simply replacing this ico file with the same name. Do NOT rename."
+            required: false
+          - label: "Grid Layout"
+            name: "gridlayout"
+            widget: "boolean"
+            required: false
+            hint: "You can choose to show the posts on the home page in a grid rather than just lined up vertically"
+          - label: "Image Enlargement"
+            name: "upzoom"
+            widget: "boolean"
+            default: true
+            hint: "Images in the content will enlarge when clicked. You can turn this off if you prefer."
+
+          - label: "Add Menu Items for the top bar"
+            name: "items"
+            widget: "list"
+            hint: "Add items here for the menubar at the top right of your site."
+            collapsed: false
+            show_preview_links: false
+            fields:
+              - label: "Site Name"
+                name: "name"
+                widget: "string"
+              - label: "Link"
+                name: "siteurl"
+                hint: "If this is an external link paste in the complete URL"
+                widget: "string"
+              - label: "Open in tab"
+                name: "tab"
+                widget: "boolean"
+                hint: "You can optionally select to have this link open in a seperate windows or tab."
+                required: false
+
+
+      - label: "Add your Social Media accounts here"
+        name: "social"
+        show_preview_links: false
+        file: "_data/social.yml"
+        fields:
+          - label: "Your Twitter Account"
+            name: "twitter"
+            widget: "string"
+            hint: "Do not include the @ sign"
+            required: false
+          - label: "Your Instagram"
+            name: "instagram"
+            widget: "string"
+            required: false
+          - label: "Your Facebook page"
+            name: "facebook"
+            widget: "string"
+            required: false
+          - label: "You Disqus account for people to comment"
+            name: "disqus_shortname"
+            widget: "string"
+            required: false
+            hint: "Once you have a disqus account you can put the short name in here."
+          - label: "Do you have a Flickr account?"
+            name: "flickr"
+            widget: "string"
+            required: false
+          - label: "How about Soundcloud"
+            name: "soundcloud"
+            widget: "string"
+            required: false
+          - label: "Here you can add your Pinterest account"
+            name: "pinterest"
+            widget: "string"
+            required: false
+          - label: "Do you have a YouTube channel?"
+            name: "youtube"
+            widget: "string"
+            required: false
+            hint: "Put your YouTube channel here"
+          - label: "Tumblr"
+            name: "tumblr"
+            widget: "string"
+            required: false
+            hint: "If you have Tumblr put it here"
+          - label: "LinkedIn"
+            name: "linkedin"
+            widget: "string"
+            required: false
+            hint: "If you have a LinkedIn network put it here"
+          - label: "You can add your own Email Adress here"
+            name: "email_address"
+            widget: "string"
+            pattern: ['@', 'Must be a valid email address']
+            required: false
+          - label: "GitHub"
+            name: "github"
+            widget: "string"
+            required: false
+            hint: "Put your Github repo in here and then people can see your code. You just need the username and repo name like this  `username/myrepo`"
+
+      - label: "Turn on some share buttons"
+        name: "share_buttons"
+        show_preview_links: false
+        file: "_data/share_buttons.yml"
+        hint: "Switch on these Social media buttons so people can share your posts"
+        fields:
+          - label: "Share on Twitter"
+            name: "twitter"
+            widget: "boolean"
+            required: false
+          - label: "Share to Instagram"
+            name: "instagram"
+            widget: "boolean"
+            required: false
+          - label: "Share to Facebook"
+            name: "facebook"
+            widget: "boolean"
+            required: false
+          - label: "Share to Tumblr"
+            name: "tumblr"
+            widget: "boolean"
+            required: false
+          - label: "Share to Pinterest"
+            name: "pinterest"
+            widget: "boolean"
+            required: false

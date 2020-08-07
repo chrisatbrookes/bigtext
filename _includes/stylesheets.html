@@ -1,0 +1,16 @@
+<!--basic stylesheet-->
+<link rel="stylesheet" href="{{site.baseurl}}/styles/styles.css">
+<!--icon font-->
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/fontawsome.css">
+<!--get the images to enlarge-->
+<link rel="stylesheet" href="{{site.baseurl}}/assets/css/jquery.fancybox.css">
+{%- if site.data.settings.gridlayout -%}
+<!--grid stylesheet-->
+<link rel="stylesheet" href="{{site.baseurl}}/styles/gridlayout.css">
+{%- endif -%}
+{%- if {page.layout} == 'home' -%}
+<!--grid stylesheet-->
+<link rel="stylesheet" href="{{site.baseurl}}/styles/gridlayout.css">
+{%- endif -%}
+<!--typography stylesheet-->
+<link rel="stylesheet" href="{{site.baseurl}}/styles/typography.css">
