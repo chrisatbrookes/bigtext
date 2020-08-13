@@ -8,7 +8,7 @@ backend:
 publish_mode: editorial_workflow
 show_preview_links: true
 display_url: https://bigtext.netlify.app
-logo_url: https://bigtext.netlify.app/uploads/face.jpg
+logo_url: https://bigtext.netlify.app/uploads/btlogo.png
 
 # Do NOT edit below this line
 
