@@ -135,6 +135,17 @@ collections:
             widget: "boolean"
             required: false
             hint: "You can choose to show the posts on the home page in a grid rather than just lined up vertically"
+
+          - label: "Height of Banner Image"
+            name: "bannerheight"
+            widget: "select"
+            options:
+              - { label: "Shallow", value: "10" }
+              - { label: "Default", value: "20" }
+              - { label: "Deep", value: "40" }
+              - { label: "Very Deep", value: "50" }
+            hint: "You can choose to have the home page banner image deep but remember the image needs to be high enough originally to fill the space. The height is NOT fixed but responsive and relative to the size of the viewport. If you choose a shallow setting then the optional text may not fit into that space."
+
           - label: "Image Enlargement"
             name: "upzoom"
             widget: "boolean"

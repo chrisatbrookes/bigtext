@@ -5,7 +5,13 @@
     {%- include javascripts.html -%}
     {%- include stylesheets.html -%}
     {%- include typography.html -%}
+<!-- add these features from the config settings -->
 
+    <style>
+      .home #main {
+        height:{{ site.data.settings.bannerheight }}vmin;
+      }
+    </style>
 
     <link rel="shortcut icon" href="{{ site.data.settings.favicon | relative_url }}" type="image/x-icon">
     <link rel="icon" href="{{ site.data.settings.favicon | relative_url }}" type="image/x-icon">
