@@ -6,5 +6,5 @@ header_feature_image: ../uploads/bigtext.jpg
 logo: ../uploads/btlogo.png
 favicon: /uploads/favicon.ico
 gridlayout: false
+bannerheight: "50"
 upzoom: true
-bannerheight: 30
