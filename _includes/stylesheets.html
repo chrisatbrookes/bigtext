@@ -14,3 +14,83 @@
 {%- endif -%}
 <!--typography stylesheet-->
 <link rel="stylesheet" href="{{site.baseurl}}/styles/typography.css">
+
+<!-- these styles are added from the typography Settings -->
+{%- if site.data.typography.userselection -%}
+
+{%- if site.data.typography.body == "Sans Serif" -%}
+<style>
+body {
+    font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.body == "Serif" -%}
+<style>
+body {
+    font-family: "Source Serif Pro", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.body == "Geometric Sans Serif" -%}
+<style>
+body {
+    font-family: "Josefin Sans", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.body == "Slab Serif" -%}
+<style>
+body {
+    font-family: 'Roboto Slab', Georgia, serif;
+}
+</style>
+{%- endif -%}
+
+
+<!-- headings -->
+
+{%- if site.data.typography.headings == "Sans Serif" -%}
+<style>
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.headings == "Serif" -%}
+<style>
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Source Serif Pro", "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.headings == "Geometric Sans Serif" -%}
+<style>
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Josefin Sans", "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.headings == "Slab Serif" -%}
+<style>
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto Slab', Georgia, serif;
+}
+</style>
+{%- endif -%}
+
+{%- if site.data.typography.headings == "Display" -%}
+<style>
+h1, h2 {
+    font-family: 'Bevan', Impact, serif;
+}
+</style>
+{%- endif -%}
+
+{%- endif -%}

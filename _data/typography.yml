@@ -1,0 +1,6 @@
+userselection: true
+headings: "Slab Serif"
+body: "Geometric Sans Serif"
+
+# Options are Slab Serif, Serif, Geometric Sans Serif, Sans Serif, Display
+# note you can only use display in headings

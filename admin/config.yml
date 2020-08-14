@@ -127,8 +127,8 @@ collections:
               - { label: "Normal", value: "20" }
               - { label: "Deep", value: "40" }
               - { label: "Very Deep", value: "50" }
-            hint: "You can choose to have the home page banner image deep but remember the image needs to be high enough originally to fill the space. The height is NOT fixed but responsive and relative to the size of the viewport. If you choose a shallow setting then the optional text may not fit into that space."
-
+              - { label: "Very Very Deep", value: "60" }
+            hint: "You can choose to have the home page banner image deep but remember the image needs to be high enough originally to fill the space. The height is NOT fixed but responsive and relative to the size of the viewport. If you choose a shallow setting then the optional text may not fit into that space. If you see green colour strips above and below the image, then your banner image is not high enough for your chosen setting."
 
           - label: "Logo Image top left"
             name: "logo"
@@ -174,6 +174,28 @@ collections:
                 hint: "You can optionally select to have this link open in a seperate windows or tab."
                 required: false
 
+      - label: "Select typefaces for body and headings"
+        name: "typography"
+        show_preview_links: false
+        file: "_data/typography.yml"
+        hint: "You just have a few choices that are embedded from Google Fonts. Turn this off if you want to take control by editing the typography.css yourself. The default styles will be headings with a slab serif font and the body text with a serif style."
+        fields:
+          - label: "Set to false if you prefer to edit the CSS yourself"
+            name: "userselection"
+            widget: "boolean"
+            default: true
+          - label: "Font to use in the body text (paragraphs etc)"
+            name: "body"
+            widget: "select"
+            options: ["Serif", "Sans Serif", "Slab Serif", "Geometric Sans Serif"]
+            default: ["Serif"]
+            hint: "This would normally be a sans serif or serif but not slab serif."
+          - label: "Font to use in the headings"
+            name: "headings"
+            widget: "select"
+            options: ["Serif", "Sans Serif", "Slab Serif", "Geometric Sans Serif", "Display"]
+            default: ["Slab Serif"]
+            hint: "You can choose any of these for the headings, but the Display font is there for fun."
 
       - label: "Add your Social Media accounts here"
         name: "social"

@@ -23,6 +23,10 @@ h1 a {
     line-height: 1;
 }
 
+.site-header .site-title {
+    font-size: 1.5em
+}
+
 h2 {
     font-size: 1.75em;
 }
