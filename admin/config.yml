@@ -84,7 +84,7 @@ collections:
   - label: "Settings"
     name: "data"
     show_preview_links: false
-    description: "These are the settings for the site. This includes the name and description of your blog and your social media accounts."
+    description: "These are the general settings for the site. This includes the name and description of your blog and your banner image and logo."
     editor:
       preview: false
     files:
@@ -106,7 +106,7 @@ collections:
             name: "header_text"
             widget: "string"
             required: false
-            hint: "This will appear above the manin image on the home page."
+            hint: "This will appear above the main image on the home page."
           - label: "Text in the Footer"
             name: "footer_text"
             widget: "string"
@@ -157,7 +157,7 @@ collections:
           - label: "Add Menu Items for the top bar"
             name: "items"
             widget: "list"
-            hint: "Add items here for the menubar at the top right of your site."
+            description: "Add items here for the menubar at the top right of your site."
             collapsed: false
             show_preview_links: false
             fields:
@@ -178,7 +178,7 @@ collections:
         name: "typography"
         show_preview_links: false
         file: "_data/typography.yml"
-        hint: "You just have a few choices that are embedded from Google Fonts. Turn this off if you want to take control by editing the typography.css yourself. The default styles will be headings with a slab serif font and the body text with a serif style."
+        description: "You just have a few choices that are embedded from Google Fonts. Turn this off if you want to take control by editing the typography.css yourself. The default styles will be headings with a slab serif font and the body text with a serif style."
         fields:
           - label: "Set to false if you prefer to edit the CSS yourself"
             name: "userselection"
@@ -199,6 +199,7 @@ collections:
 
       - label: "Add your Social Media accounts here"
         name: "social"
+        description: "By adding your accounts in here, your site visitors will see icons that will take them to your other digital locations such as Facebook and Twitter."
         show_preview_links: false
         file: "_data/social.yml"
         fields:
@@ -262,7 +263,7 @@ collections:
         name: "share_buttons"
         show_preview_links: false
         file: "_data/share_buttons.yml"
-        hint: "Switch on these Social media buttons so people can share your posts"
+        description: "Switch on these Social media buttons so people can share your posts"
         fields:
           - label: "Share on Twitter"
             name: "twitter"
