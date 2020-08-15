@@ -1,6 +1,6 @@
 userselection: true
-headings: "Slab Serif"
-body: "Geometric Sans Serif"
+headings: "Roboto Slab"
+body: "Josefin Sans"
 
-# Options are Slab Serif, Serif, Geometric Sans Serif, Sans Serif, Display
-# note you can only use display in headings
+# Options are Source Sans Pro, Source Serif Pro, Josefin Sans, Roboto Slab, Bevan, Alegreya
+# note you can only use Bevan in headings
