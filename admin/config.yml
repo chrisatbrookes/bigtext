@@ -5,8 +5,8 @@ backend:
   site_domain: bigtext.netlify.app #Your site on netlify
   use_graphql: true
 
-# publish_mode: editorial_workflow
-# show_preview_links: true
+publish_mode: editorial_workflow
+show_preview_links: true
 display_url: https://bigtext.netlify.app
 logo_url: https://bigtext.netlify.app/uploads/btlogo.png
 
