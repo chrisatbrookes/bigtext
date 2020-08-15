@@ -1,3 +1,5 @@
-userselection: true
-body: Serif
-headings: Slab Serif
+headings: "Roboto Slab"
+body: "Josefin Sans"
+
+# Options are Source Sans Pro, Source Serif Pro, Josefin Sans, Roboto Slab, Bevan, Alegreya
+# note you can only use Bevan in headings
