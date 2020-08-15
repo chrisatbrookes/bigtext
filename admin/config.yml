@@ -178,7 +178,7 @@ collections:
         name: "typography"
         show_preview_links: false
         file: "_data/typography.yml"
-        hint: "You just have a few choices that are embedded from Google Fonts. Turn this off if you want to take control by editing the typography.css yourself. The default styles will be headings with a slab serif font and the body text with a serif style. Please search Google Fonts to see these fonts in action."
+        hint: "You just have a few choices that are embedded from Google Fonts. Turn this off if you want to take control by editing the typography.css yourself. The default styles will be headings with a slab serif font and the body text with a serif style. Please search Google Fonts to see how these fonts display."
         fields:
           - label: "Set to false if you prefer to edit the CSS yourself"
             name: "userselection"
