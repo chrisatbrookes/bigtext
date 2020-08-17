@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About the BigText project
-subtitle: What is this site all about and why does it exist?
+subtitle: ""
 permalink: /about/
 date: 2020-06-29T15:36:12.231Z
 header_feature_image: ../uploads/50235951793_97be78e24a_k.jpg
@@ -11,6 +11,10 @@ description: null
 show: true
 ---
 This site is all about large text; text that is meant to be read from a distance.
+
+A bit like the *handwriting* script on this French supermarket.
+
+![Supermarket in Matignon France](../uploads/50235940643_ac1b24212c_k.jpg "Supermarket in Matignon France")
 
 I am on the lookout for examples (good and bad) of the way text can be seen in the environment where the scale is often presented at sizes that might be described as big, large and gigantic.
 
