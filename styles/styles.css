@@ -29,7 +29,7 @@ main, menu, nav, section, summary {
 
 body {
     color: #262626;
-    font-family: "Roboto", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, Arial, sans-serif;
     font-size: 1.25em;
     word-wrap: break-word;
 }
@@ -705,6 +705,7 @@ max-height: 100%;
 }
 
 .site-header nav {
+  font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, Arial, sans-serif;
     list-style: none;
     margin: 0;
     padding: 0
