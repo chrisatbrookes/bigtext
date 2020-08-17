@@ -9,7 +9,11 @@ IKEA stores are all over the place - not just in Sweden but all over Europe. The
 
 The IKEA stores are located near to motorways and are easily spotted even if you take the wrong exit!
 
-The logo for IKEA has changed but only subtly. There was some redesign of the logo done by the[ Seventy Agency and 72andSunny Amsterdam](https://www.underconsideration.com/brandnew/archives/new_logo_for_ikea.php).
+The logo for IKEA has changed but only subtly. There was some redesign of the logo done by the[ Seventy Agency and 72andSunny Amsterdam](https://www.underconsideration.com/brandnew/archives/new_logo_for_ikea.php). Apart from some very slight size changes the serifs were reduced further.
+
+Graphics website [Brand New](https://www.underconsideration.com/brandnew/archives/new_logo_for_ikea.php) has published a series of diagrams that show how simple the changes are.
+
+The result is intended to create a "bigger brand presence" within the same amount of media space.
 
 ![The IKEA logo](../uploads/ikea_2019_logo.png "The IKEA logo")
 
