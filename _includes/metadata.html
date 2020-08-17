@@ -3,9 +3,9 @@
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 {%- if page.header_feature_image != null -%}
-<meta property="og:image" content="{{site.url}}{{page.header_feature_image}}">
+<meta property="og:image" content="{{site.url}}{{page.header_feature_image | replace: "..", "" }}">
 {%- else -%}
-<meta property="og:image" content="{{site.url}}{{site.data.settings.header_feature_image}}">
+<meta property="og:image" content="{{site.url}}{{site.data.settings.header_feature_image | replace: "..", "" }}">
 {%- endif -%}
 
 <!-- Twitter -->
@@ -23,8 +23,8 @@
 <meta name="twitter:description" content="{{site.data.settings.description}}">
 {%- endif -%}
 {%- if page.header_feature_image != null -%}
-<meta name="twitter:image" content="{{site.url}}{{page.header_feature_image}}">
+<meta name="twitter:image" content="{{site.url}}{{page.header_feature_image | replace: "..", "" }}">
 {%- else -%}
-<meta name="twitter:image" content="{{site.url}}{{site.data.settings.header_feature_image}}">
+<meta name="twitter:image" content="{{site.url}}{{site.data.settings.header_feature_image | replace: "..", "" }}">
 {%- endif -%}
 <meta name="twitter:creator" content="@{{site.data.social.twitter}}">
