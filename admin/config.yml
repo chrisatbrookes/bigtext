@@ -5,8 +5,8 @@ backend:
   site_domain: bigtext.netlify.app #Your site on netlify
   use_graphql: true
 
-# publish_mode: editorial_workflow
-# show_preview_links: true
+publish_mode: editorial_workflow
+show_preview_links: true
 display_url: https://bigtext.netlify.app
 logo_url: https://bigtext.netlify.app/uploads/btlogo.png
 
@@ -178,7 +178,7 @@ collections:
         name: "typography"
         show_preview_links: false
         file: "_data/typography.yml"
-        hint: "You just have a few choices that are embedded from Google Fonts. Turn this off if you want to take control by editing the typography.css yourself. The default styles will be headings with a slab serif font and the body text with a serif style. Please search Google Fonts to see how these fonts display."
+        hint: "You just have a few choices that are embedded from Google Fonts. Turn this off if you want to take control by editing the typography.css yourself. The default styles will be headings with a slab serif typeface (Roboto Slab) and the body text with a serif typeface (Source Serif Pro). Please search Google Fonts to see how these fonts display."
         fields:
           - label: "Set to false if you prefer to edit the CSS yourself"
             name: "userselection"
@@ -187,13 +187,13 @@ collections:
           - label: "Font to use in the body text (paragraphs etc)"
             name: "body"
             widget: "select"
-            options: ["Source Serif Pro", "Source Sans Pro", "Roboto Slab", "Josefin Sans", "Alegreya"]
+            options: ["Source Serif Pro", "Source Sans Pro", "Roboto Slab", "Josefin Sans", "Alegreya", "Montserrat", "Libre Baskerville"]
             default: ["Source Serif Pro"]
             hint: "This would normally be a sans serif or serif but not slab serif."
           - label: "Font to use in the headings"
             name: "headings"
             widget: "select"
-            options: ["Source Serif Pro", "Source Sans Pro", "Roboto Slab", "Josefin Sans", "Alegreya", "Bevan"]
+            options: ["Source Serif Pro", "Source Sans Pro", "Roboto Slab", "Josefin Sans", "Alegreya", "Bevan", "Montserrat", "Libre Baskerville"]
             default: ["Roboto Slab"]
             hint: "You can choose any of these for the headings; Bevan is a display font."
 
