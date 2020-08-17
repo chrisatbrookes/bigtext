@@ -13,7 +13,7 @@ The logo for IKEA has changed but only subtly. There was some redesign of the lo
 
 Graphics website [Brand New](https://www.underconsideration.com/brandnew/archives/new_logo_for_ikea.php) has published a series of diagrams that show how simple the changes are.
 
-The result is intended to create a "bigger brand presence" within the same amount of media space.
+Apparently, the result is intended to create a "bigger brand presence" within the same amount of media space.
 
 ![The IKEA logo](../uploads/ikea_2019_logo.png "The IKEA logo")
 
@@ -25,6 +25,8 @@ The font used in the logo is not publicly available but you can see that it does
 
 The image shown above was taken in 2003 and since then the IKEA brand has changed  - subtly. You can see here that back then there were no serifs at all and the font was a heavy version of 'Futura'
 
-Finally, here is another image of an anonymous store, showing those little serifs.
+So, whatever you think of the IKEA logo and the flat-pack culture, you must admit that the way they display their name in **yellow** over a **blue** background, catches your attention as you zip by at 70mph! 
+
+Here is another image of an anonymous store, showing those little serifs.
 
 ![Image from Sky News.](../uploads/ikeastore.jpg "Image from Sky News.")
