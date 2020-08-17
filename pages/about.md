@@ -47,3 +47,5 @@ I decided to name my site *BigText* using CamelCase; and if you don't know what 
 The image in the banner for this about page is from a photograph taken in the printmaking department at Oxford Brookes University of letterpress wood type. The image shows uppercase, lowercase and numbers in the same drawer. This type would normally be used for printing posters, such as the one that finishes this page.
 
 ![Letterpress poster from 1904 (John Heywood Ltd., Printers.; Houdini, Harry, 1874-1926.)](../uploads/1024px-challenge_to_houdini-_regent_theatre-_salford_lccn2014636909.jpg "Letterpress poster from 1904")
+
+I have attempted to identify some of the typefaces used in the poster by looking in the early years section of the [Identify](http://www.identifont.com) web site.
