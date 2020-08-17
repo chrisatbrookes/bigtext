@@ -3,7 +3,7 @@ layout: page
 title: About
 permalink: /about/
 date: 2020-06-29T15:36:12.231Z
-show: false
+show: true
 header_feature_image: ../uploads/50235951793_97be78e24a_k.jpg
 published: true
 subtitle: All about me and my life
