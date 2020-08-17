@@ -1,14 +1,14 @@
 ---
 layout: page
-title: About
+subtitle: About BigText
+title: What is this site all about and why does it exist?
 permalink: /about/
 date: 2020-06-29T15:36:12.231Z
-show: true
 header_feature_image: ../uploads/50235951793_97be78e24a_k.jpg
 published: true
-subtitle: All about me and my life
 tags: null
 description: null
+show: true
 ---
 This site is all about large text; text that is meant to be read from a distance.
 
