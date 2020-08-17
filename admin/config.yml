@@ -36,7 +36,7 @@ collections:
       - {label: "Featured Image", name: "header_feature_image", widget: "image", required: false, hint: "This image will appear at the top of your post"}
       - {label: "Caption", name: "caption", widget: "string", required: false}
       - {label: "Comments", name: "comments", widget: "boolean", required: false, hint: "If you setup your Disqus account then turn this on"}
-      - {label: "Body", name: "body", widget: "markdown", hint: "You can type striaght into this field and use the toolbar to select styles. You can also use markdown directly when you switch this off. In markdown mode, you can also add HTML."}
+      - {label: "Body", name: "body", widget: "markdown", hint: "You can type straight into this field and use the toolbar to select styles. You can also use markdown directly when you switch this off. In markdown mode, you can also add HTML."}
 
 
   - name: "pages"
@@ -53,7 +53,8 @@ collections:
       preview: false
     fields: # The fields for each document, usually in front matter
       - {label: "Layout", name: "layout", widget: "hidden", default: "page"}
-      - {label: "Title", name: "title", widget: "string"}
+      - {label: "Title", name: "subtitle", widget: "string"}
+      - {label: "Subtitle", name: "title", widget: "string", required: false, hint: "This will show under the heading for the page."}
       - {label: "Permalink", name: "permalink", widget: "string"}
       - {label: "Publish Date", name: "date", widget: "datetime"}
       - {label: "Show on the menu?", name: "show", widget: "boolean", default: false, hint: "If this is switched on, the link will show on the menubar to the right."}
