@@ -23,4 +23,6 @@ A company called [ShyFonts](https://www.dafont.com/hollywood-hills.font) have cr
 
 ![The SF Hollywood Hills font](../uploads/screenshot-2020-08-18-at-08.56.25.png "The SF Hollywood Hills font")
 
-The banner image on this page shows the sign in 1978. Workers prepare to lower the last letter of the old Hollywood sign that had stood at the site since the 1920s.  Wally Fong/AP Photo
+
+
+![The sign in 1978. Workers prepare to lower the last letter of the old Hollywood sign that had stood at the site since the 1920s.  Wally Fong/AP Photo](../uploads/file-20171107-6733-1vd7y81.jpg "The sign in 1978. Workers prepare to lower the last letter of the old Hollywood sign that had stood at the site since the 1920s.  Wally Fong/AP Photo")
