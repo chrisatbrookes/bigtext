@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the BigText project
+title: About
 subtitle: ""
 permalink: /about/
 date: 2020-06-29T15:36:12.231Z
@@ -28,7 +28,7 @@ What examples are we likely to find here:
 
 ## My logo and banner image
 
-I decided to create my logo and banner image from text and used the full space (the square in the logo and the wide) for the text. The 2 words *Big* and *Text* in contrasting colours - bright and dramatic.
+I decided to create my logo and banner image from text and used the full space (the square in the logo and the wide) for the text. The 2 words *Big* and *Text* in contrasting colours - bright and dramatic. I have opted to use the ***deep*** setting for the banner image and not put the text in the banner since it seem unnecessary and detracts from the image.
 
 I put the full logo here:
 
