@@ -37,8 +37,6 @@ This Bidfest food delivery vehicle is being used as a canvas for a landscape col
 
 ![Bidfest 3663 with a landscape built from food.](../uploads/50240907978_673ab3385b_o.jpg "Bidfest 3663 with a landscape built from food.")
 
-
-
 ## Logo and Branding
 
 We can't always identify the fonts used in a logo, because the lettering is significantly modified or, indeed built from geometry. Take this DHL logo which appears top left on this *huge* yellow delivery lorry.
@@ -48,6 +46,12 @@ We can't always identify the fonts used in a logo, because the lettering is sign
 The letters in the logo are created to indicate a sense of movement
 
 I want to point out the [DHL web site that defines their brand](https://www.dpdhl-brands.com/dhl/en.html) and how all of the design elements (including the logo) are to be used across the company. This represents a fine example of a design scheme that unifies the brand.
+
+DHL (and Deutsche Post) have created their own font called 'Delivery' and you can see this used all across their branding (including the byline on the lorry above). I quote from their branding guidelines:
+
+> Delivery was developed exclusively for DHL, Deutsche Post and Deutsche Post DHL Group. It is available for anyone involved in the design of our marketing and communications materials. While it will be automatically installed on staff computers, it is also available for download and distribution to agencies and other service providers in the download section at the end of this guide.
+
+I was amazed to find that you can download this font with full instructions. Thanks DHL. 
 
 ## Red Lorry Yellow Lorry
 
