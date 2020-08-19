@@ -9,6 +9,10 @@ The Hollywood sign in Santa Monica, California is a well known landmark and has 
 
 The sign has gone through lots of changes over the years starting in 1949 when the 'land' part was removed. Originally the sign was created from 45 feet (14 metres)  high sheet metal and painted white. The letters were supported with poles and wires, but as you can see from the image in the banner on this page, this wasn't sturdy enough to protect against the strong winds that sometimes buffet these hills. Nowadays the letters are supported by very robust structures concreted into the ground.
 
+![Detail from Photo by Jonathan Gonzalez on Unsplash](../uploads/jonathan-gonzalez-axn9u_59214-unsplash.jpg "Detail from Photo by Jonathan Gonzalez on Unsplash")
+
+In this view from above by Jonathan Gonzalez, we can see the supporting structures for the letters. We should be grateful, that there has never been an attempt to make the letters all sit at the same level; the slight unevenness of the ground is what makes the word distinctive and provides the charm.
+
 ![The Hollywood sign now](../uploads/hollywood_sign.jpg)
 
 ## The Hollywood Font
@@ -23,6 +27,6 @@ A company called [ShyFonts](https://www.dafont.com/hollywood-hills.font) have cr
 
 ![The SF Hollywood Hills font](../uploads/screenshot-2020-08-18-at-08.56.25.png "The SF Hollywood Hills font")
 
-
-
 ![The sign in 1978. Workers prepare to lower the last letter of the old Hollywood sign that had stood at the site since the 1920s.  Wally Fong/AP Photo](../uploads/file-20171107-6733-1vd7y81.jpg "The sign in 1978. Workers prepare to lower the last letter of the old Hollywood sign that had stood at the site since the 1920s.  Wally Fong/AP Photo")
+
+![The new version under construction in 1978](../uploads/hollywood.jpg "The new version under construction in 1978")
