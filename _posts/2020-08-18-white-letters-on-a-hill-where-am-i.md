@@ -7,7 +7,7 @@ caption: The Hollywood sign in 1978
 ---
 The Hollywood sign in Santa Monica, California is a well known landmark and has an interesting history, because it was originally put up in 1923 as an advertisement for land available for building homes in an area known as *Hollywoodland*.
 
-The sign has gone through lots of changes over the years starting in 1949 when the 'land' part was removed. Originally the sign was created from 45 feet (14 metres)  high sheet metal and painted white. The letters were supported with poles and wires, but as you can see from the image in the banner on this page, this wasn't sturdy enough to protect against the strong winds that sometimes buffet these hills. Nowadays the letters are supported by very robust structures concreted into the ground.
+The sign has gone through lots of changes over the years starting in 1949 when the 'land' part was removed. Originally the sign was created from 45 feet (14 metres) high sheet metal and painted white. The letters were supported with poles and wires, but as you can see from the image in the banner on this page, this wasn't sturdy enough to protect against the strong winds that sometimes buffet these hills. Nowadays the letters are supported by very robust structures concreted into the ground.
 
 ![Detail from Photo by Jonathan Gonzalez on Unsplash](../uploads/jonathan-gonzalez-axn9u_59214-unsplash.jpg "Detail from Photo by Jonathan Gonzalez on Unsplash")
 
