@@ -19,13 +19,13 @@ The FedEX logo used a bold form of the Futura typeface although there is a bit o
 
 ## Big Lorries provide a Lot of Space
 
-Think of it as a moving billboard. The lorries we see on our motorways are often huge. We don't want those bog polluting vehicles coming into our cities and so, the distribution centres are usually somewhere out on the ring road. But a big lorry canvas is a space for the large scale typography to reach you as it flashed by at 60mph.
+Think of it as a moving billboard. The lorries we see on our motorways are often huge. We don't want those big polluting vehicles coming into our cities and so, the distribution centres are usually somewhere out on the ring road. But a big lorry canvas is a space for the large scale typography to reach you as it flashes by at 60mph.
 
 ![Simba. I don't know this brand. I took this photo in South Africa](../uploads/50151044306_378a3476aa_k.jpg "Simba. I don't know this brand. I took this photo in South Africa")
 
 ## Less is More
 
-On the one hand, you might want to fill the space and make the message easy to read at high speeds, but then if the lorry is smaller (like for making local deliveries), then you can afford to have a bit of detailed information, such as in this ESSELUNGA vehicle seen in Florence, Italy.
+On the one hand, you might want to fill the space and make the message easy to read at high speeds, but then if the lorry is smaller (like for making local deliveries), then you can afford to have a bit of detailed information, such as in this **ESSELUNGA** vehicle seen in Florence, Italy.
 
 ![The ESSELUNGA logo uses the Akceler typeface designed by Andrej Dieneš](../uploads/50222879726_479fd24d74_k.jpg "The ESSELUNGA logo uses the Akceler typeface designed by Andrej Dieneš")
 
