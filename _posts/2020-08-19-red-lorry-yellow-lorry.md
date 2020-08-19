@@ -28,3 +28,27 @@ Think of it as a moving billboard. The lorries we see on our motorways are often
 On the one hand, you might want to fill the space and make the message easy to read at high speeds, but then if the lorry is smaller (like for making local deliveries), then you can afford to have a bit of detailed information, such as in this ESSELUNGA vehicle seen in Florence, Italy.
 
 ![The ESSELUNGA logo uses the Akceler typeface designed by Andrej Dieneš](../uploads/50222879726_479fd24d74_k.jpg "The ESSELUNGA logo uses the Akceler typeface designed by Andrej Dieneš")
+
+## Parked Lorry - time to ponder
+
+With local delivery lorries they are often parked up while the delivery takes place. In this case the decal designer has more scope to tell a story.
+
+This Bidfest food delivery vehicle is being used as a canvas for a landscape collage created from food products. The typography itself (bottom left) is lost in the whole scene.
+
+![Bidfest 3663 with a landscape built from food.](../uploads/50240907978_673ab3385b_o.jpg "Bidfest 3663 with a landscape built from food.")
+
+
+
+## Logo and Branding
+
+We can't always identify the fonts used in a logo, because the lettering is significantly modified or, indeed built from geometry. Take this DHL logo which appears top left on this *huge* yellow delivery lorry.
+
+![DHL yellow lorry](../uploads/dhl.jpg "DHL yellow lorry")
+
+The letters in the logo are created to indicate a sense of movement
+
+I want to point out the [DHL web site that defines their brand](https://www.dpdhl-brands.com/dhl/en.html) and how all of the design elements (including the logo) are to be used across the company. This represents a fine example of a design scheme that unifies the brand.
+
+## Red Lorry Yellow Lorry
+
+Have you noticed how so many lorries are yellow?
