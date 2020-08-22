@@ -149,6 +149,12 @@ collections:
             required: false
             hint: "You can choose to show the posts on the home page in a grid rather than just lined up vertically."
 
+          - label: "Fix the navigation bar to the top of the page?"
+            name: "fixednavbar"
+            widget: "boolean"
+            required: false
+            hint: "If you turn this on, the navbar at the top of all pages will be fixed and the content will flow underneath as it scrolls."
+
           - label: "Image Enlargement"
             name: "upzoom"
             widget: "boolean"
