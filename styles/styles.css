@@ -214,7 +214,7 @@ img[align=right] {
 
 article, .comments, .feature-image .post-content, .feature-image footer,
 .posts .post-teaser, .site-footer {
-    padding: 4% 23%
+    padding: 1% 23%
 }
 
 
@@ -420,7 +420,7 @@ header {
     text-align: center;
     color: #FFF;
     background: #337ab7 no-repeat;
-    background-size: cover
+    /* background-size: contain; */
 }
 
 @media screen and (min-width: 768px) {
@@ -446,9 +446,16 @@ header {
 }
 
 #main {
-    /* background-position: 100% 0, 0 center, center top;
-    background-size: cover;
-    object-fit: cover !important; */
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  /* font-size: 1.2em; */
+  text-align: center;
+  color: #FFF;
+  background: #337ab7 no-repeat;
+  background-size: cover;
+  background-position: center;
+  /* background-origin: content-box; */
 }
 
 .posts .post-teaser {
