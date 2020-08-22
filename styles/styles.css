@@ -668,12 +668,18 @@ max-height: 100%;
 }
 
 .site-header {
-    padding: 2% 2% 1% 2%;
-    background: #fff;
-    display: inline-block;
-    float: left;
-    width: 100%
+background: #fff;
+width: 100%;
+top:0;
+padding-right: 20px;
+height: 55px;
+z-index: 100;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
+
+
 
 .site-header .separator {
     user-select: none;
@@ -688,18 +694,23 @@ max-height: 100%;
     color: #383838
 }
 
-.site-header .avatar {
-    height: 3em;
-    width: 3em;
-    float: left;
-    margin-top: -13px;
-    border-radius: 0.2em;
-    margin-right: 0.5em;
-    padding: 10px 10px
+.branding {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin:0;
+  padding:0;
+}
+
+.branding img.avatar {
+  display: block;
+    height: 50px;
+    width: 50px;
+    margin: 0 0.5em;
+    padding:0;
 }
 
 .site-header .site-title {
-    float: left;
     font-weight: bold;
     font-size: 1.3em
 }
@@ -708,7 +719,7 @@ max-height: 100%;
   font-family: "Source Sans Pro", "Trebuchet MS", Helvetica, Arial, sans-serif;
     list-style: none;
     margin: 0;
-    padding: 0
+    padding: 0;
 }
 
 .site-header nav ul {
@@ -718,7 +729,7 @@ max-height: 100%;
     line-height: 1.5;
     float: right;
     text-align: right;
-    display: block
+    display: block;
 }
 
 .site-header nav li {
@@ -732,7 +743,7 @@ max-height: 100%;
 }
 
 .site-header nav a#pull i {
-    margin-top: 13px;
+    /* margin-top: 13px; */
     float: right
 }
 
@@ -756,16 +767,12 @@ max-height: 100%;
 }
 
 @media screen and (max-width: 768px) {
-    .site-header img.avatar {
-        margin-top: -7px
-    }
 
-    .site-header .site-title {
-        margin-top: 7px
-    }
+
 
     nav {
-        height: auto
+        height: auto;
+        width:auto;
     }
 
     nav .separator {
@@ -773,9 +780,16 @@ max-height: 100%;
     }
 
     nav ul {
-        width: 100%;
-        overflow: hidden;
-        transition: font-size .25s, margin .25s, padding .25s, opacity .5s .25s
+      width: 100%;
+      overflow: hidden;
+      transition: font-size .25s, margin .25s, padding .25s, opacity .5s .25s;
+      background: white;
+      z-index: 100;
+      opacity: .9;
+      position: fixed;
+      right:0;
+      top: 55px;
+      border-right:20px solid white;
     }
 
     nav ul.hide {
@@ -783,13 +797,13 @@ max-height: 100%;
         margin: 0;
         opacity: 0;
         padding: 0;
-        transition: opacity .25s, font-size .5s .25s, margin .5s .25s, padding .5s .25s
+        transition: opacity .25s, font-size .5s .25s, margin .5s .25s, padding .5s .25s;
     }
 
     nav li {
         width: 100%;
         float: left;
-        position: relative
+        position: relative;
     }
 
     nav a {
