@@ -3,6 +3,9 @@ layout: post
 title: Type in the Sky
 date: 2020-08-20T11:24:48.694Z
 header_feature_image: ../uploads/pevely_dairy_company_plant_office_building.jpg
+tags:
+  - Architecture
+  - Buildings
 ---
 Sometimes we just need to put that text **in the sky**! Getting the message visible across the city may mean building a structure and elevating the words as high as possible. We will need a good strong structure of course.
 
