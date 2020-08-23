@@ -2,7 +2,7 @@
 layout: post
 title: Here's an Idea - IKEA
 date: 2020-08-17T11:25:13.089Z
-header_feature_image: ../uploads/ikea-logo-2210x1473.jpg
+header_feature_image: ""
 caption: An IKEA store
 tags:
   - Architecture
