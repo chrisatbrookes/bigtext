@@ -89,7 +89,6 @@ collections:
     description: "These are the general settings for the site. This includes the name and description of your blog and your banner image and logo."
     editor:
       preview: false
-    publish: false
     files:
       - label: "General Critical Settings for your Web site"
         name: "general"
@@ -186,7 +185,6 @@ collections:
       - label: "Select typefaces for body and headings"
         name: "typography"
         show_preview_links: false
-        publish: false
         file: "_data/typography.yml"
         hint: "You just have a few choices that are embedded from Google Fonts. Turn this off if you want to take control by editing the typography.css yourself. The default styles will be headings with a slab serif typeface (Roboto Slab) and the body text with a serif typeface (Source Serif Pro). Please search Google Fonts to see how these fonts display."
         fields:
@@ -211,7 +209,6 @@ collections:
         name: "social"
         hint: "By adding your accounts in here, your site visitors will see icons that will take them to your other digital locations such as Facebook and Twitter."
         show_preview_links: false
-        publish: false
         file: "_data/social.yml"
         fields:
           - label: "Your Twitter Account"
@@ -273,7 +270,6 @@ collections:
       - label: "Turn on some share buttons"
         name: "share_buttons"
         show_preview_links: false
-        publish: false
         file: "_data/share_buttons.yml"
         hint: "Switch on these Social media buttons so people can share your posts"
         fields:
