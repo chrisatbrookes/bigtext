@@ -7,6 +7,7 @@ caption: An IKEA store
 tags:
   - Architecture
   - Buildings
+  - Signage
 ---
 IKEA stores are all over the place - not just in Sweden but all over Europe. The brand is highly visible and recognisable because of its distinctive font and colour contrast. When it comes to big text, then the IKEA logo is highly visible at a distance. This is what counts, because the IKEA stores are usually located at the edge of towns and cities, near airports, or on 'out of town' shopping malls.
 
