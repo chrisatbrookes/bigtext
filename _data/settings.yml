@@ -7,5 +7,5 @@ bannerheight: "10"
 logo: ../uploads/btlogo.png
 favicon: ../uploads/favicon.ico
 gridlayout: false
-fixednavbar: true
+fixednavbar: false
 upzoom: true
