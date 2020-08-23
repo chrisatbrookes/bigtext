@@ -4,6 +4,10 @@ title: Red Lorry - Yellow Lorry
 date: 2020-08-19T09:01:39.658Z
 header_feature_image: ../uploads/redlorry_yellowlorry.jpg
 caption: Sainsburys distribution lorry in the UK
+tags:
+  - Transport
+  - Design
+  - Graphics
 ---
 RedLorryYellowLorryRedLorryYellowLorryRedLorryYellowLorryRedLorryYellowLorry. Try saying that very quickly and see if your tongue gets all twisted up. Yes, this post is all about lorry (*trucks* if you are from the USA) typography.
 
