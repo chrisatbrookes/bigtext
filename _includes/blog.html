@@ -2,7 +2,7 @@
     {% for post in paginator.posts | sort: "title" %}
     {% if post.pinned %}
     <div class="post-teaser">
-        {%- if post.header_feature_image -%}
+        {%- if post.header_feature_image >"" -%}
         {%- assign image_url = post.header_feature_image -%}
         <div class="post-img">
             <a aria-label="{{ post.title }}" href="{{ post.url | relative_url }}">
@@ -34,7 +34,7 @@
     {%- for post in paginator.posts | sort: "date" -%}
     {%- unless post.pinned -%}
     <div class="post-teaser">
-        {%- if post.header_feature_image -%}
+        {%- if post.header_feature_image > "" -%}
         {%- assign image_url = post.header_feature_image -%}
         <div class="post-img">
             <a aria-label="{{ post.title }}" href="{{ post.url | relative_url }}">
