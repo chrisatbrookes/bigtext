@@ -37,6 +37,7 @@ collections:
       - {label: "Caption", name: "caption", widget: "string", required: false}
       - {label: "Comments", name: "comments", widget: "boolean", required: false, hint: "If you setup your Disqus account then turn this on"}
       - {label: "Body", name: "body", widget: "markdown", hint: "You can type straight into this field and use the toolbar to select styles. You can also use markdown directly when you switch this off. In markdown mode, you can also add HTML."}
+      - {label: "Tags", name: "tags", widget: "select", multiple: true, min: 1, max: 5, options: ["Design", "Photography", "Transport", "Media", "Education", "Life", "Landscape", "Architecture", "Personal", "Travel", "Nature", "Cinema", "Culture", "Art", "TV", "Literature", "Publishing", "Journalism", "Science", "Graphics"], default: ["Design"], hint: "By adding tags the posts can be listed together under that tag. /nYou will need to enable the tags page (by turning on show on menu for the tags page."}
 
 
   - name: "pages"
