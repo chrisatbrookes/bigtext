@@ -44,8 +44,10 @@ The branding designed by FutureBrand uses a form of PT Sans Designed by ParaType
 
 Photo by [Fotis Christopoulos](https://unsplash.com/@digitaldev?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/%22emirates-airplane%22?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-The Emirates brand uses a bespoke font designed for them by their own design team. The font was designed in 2003 and the bold form can be found for download in various places on the web. 
+The Emirates brand uses a bespoke font designed for them by their own design team. The font was designed in 2003 and the bold form can be found for download in various places on the web.  The shape of the letters seems to be a subtle nod to Arabic letterforms with their elaborate curves.
 
 ![Here is the Emirates font](../uploads/screenshot-2020-08-25-at-10.39.19.png "Here is the Emirates font")
+
+
 
 Next time you make a journey by air, do take notice of the typefaces used.
