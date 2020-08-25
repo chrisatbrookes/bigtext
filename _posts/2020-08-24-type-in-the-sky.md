@@ -48,6 +48,4 @@ The Emirates brand uses a bespoke font designed for them by their own design tea
 
 ![Here is the Emirates font](../uploads/screenshot-2020-08-25-at-10.39.19.png "Here is the Emirates font")
 
-
-
 Next time you make a journey by air, do take notice of the typefaces used.
