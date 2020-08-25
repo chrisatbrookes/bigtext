@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-subtitle: ""
+subtitle: What did I do and why did I do it?
 permalink: /about/
 date: 2020-06-29T15:36:12.231Z
 header_feature_image: ../uploads/50235951793_97be78e24a_k.jpg
