@@ -22,7 +22,7 @@ Check out the letter **i**, this also needs an appendage. Letters in the sky nee
 
 ## Signs are UP in the USA
 
-If you have ever been fortunate enough to visit the United States, you will notice that there are very many signs elevated on scaffolding; hotels, motels and stores advertise their presence with elaborate constructions.  These signs are sometimes to be found atop the building but also often separate structures have been built to hold the lettering.
+If you have ever been fortunate enough to visit the United States, you will notice that there are very many signs elevated on scaffolding; hotels, motels and stores advertise their presence with elaborate constructions.  These signs are sometimes to be found atop the building but also separate structures have been built to hold the lettering.
 
 ![Brady's market, U.S. 395, Inyokern, CA, USA](../uploads/joshua-lewis-d8wkirgypyc-unsplash.jpg "Brady's market, U.S. 395, Inyokern, CA, USA")
 
