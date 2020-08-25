@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-subtitle: ""
+subtitle: What did I do and why did I do it?
 permalink: /about/
 date: 2020-06-29T15:36:12.231Z
 header_feature_image: ../uploads/50235951793_97be78e24a_k.jpg
@@ -28,7 +28,7 @@ What examples are we likely to find here:
 
 ## My logo and banner image
 
-I decided to create my logo and banner image from text and used the full space (the square in the logo and the wide) for the text. The 2 words *Big* and *Text* in contrasting colours - bright and dramatic. I have opted to use the ***deep*** setting for the banner image and not put the text in the banner since it seem unnecessary and detracts from the image.
+I decided to create my logo and banner image from text and used the full space (the square in the logo and the wide) for the text. The 2 words *Big* and *Text* in contrasting colours - bright and dramatic. I have opted to use the ***deep*** setting for the banner image and not put the text in the banner since it seem unnecessary and detracts from the image. The logo itself is a simplified rendition of the word **big** and the letter **T.** I also made a square version of this for the favicon which I then built with the wonderful web site [favicon.io](favicon.io)
 
 I put the full logo here:
 
