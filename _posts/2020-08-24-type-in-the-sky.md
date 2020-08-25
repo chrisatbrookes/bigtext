@@ -32,7 +32,7 @@ I haven't been able to identify the typeface used in the *mini mart* words, howe
 
 ## Type in Flight
 
-The ultimate place to observe type in the sky is the graphic livery on aeroplanes in the clouds. Of course, the designs we see on the fuselage of these planes is dependant on the design schemes and branding of the companies that operate them. Next time you make a journey by air, do take notice of the typefaces used. Here are some examples.
+The ultimate place to observe type in the sky is the graphic livery on aeroplanes in the clouds. Of course, the designs we see on the fuselage of these planes is dependant on the design schemes and branding of the companies that operate them. Here are some examples.
 
 ![A320 Air Malta landing at Orly Airport](../uploads/daniel-eledut-9qbk7fwoz1y-unsplash.jpg "A320 Air Malta landing at Orly Airport")
 
@@ -47,3 +47,5 @@ Photo by [Fotis Christopoulos](https://unsplash.com/@digitaldev?utm_source=unspl
 The Emirates brand uses a bespoke font designed for them by their own design team. The font was designed in 2003 and the bold form can be found for download in various places on the web. 
 
 ![Here is the Emirates font](../uploads/screenshot-2020-08-25-at-10.39.19.png "Here is the Emirates font")
+
+Next time you make a journey by air, do take notice of the typefaces used.
