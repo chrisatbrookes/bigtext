@@ -17,7 +17,7 @@ When it comes to making full use of the space, look no further than FedEx (notic
 
 ![FedEx lorry in my street](../uploads/f071af3e-eb5c-40b2-a728-627e66fb9acd_1_105_c.jpeg "FedEx lorry in my street")
 
-The FedEX logo used a bold form of the Futura typeface although there is a bit of manipulation of the spacing to achieve the arrow formed between the E and x. I have highlighted this in the image below.
+The FedEX logo used a bold form of the Futura typeface although there is a bit of manipulation of the spacing to achieve the arrow formed between the **E** and **x**. I have highlighted this in the image below.
 
 ![FedEx logo showing the internal space arrow](../uploads/c833uexa9n5q5uuoyj6g3i-970-80.jpg "FedEx logo showing the internal space arrow")
 
@@ -32,6 +32,12 @@ Think of it as a moving billboard. The lorries we see on our motorways are often
 On the one hand, you might want to fill the space and make the message easy to read at high speeds, but then if the lorry is smaller (like for making local deliveries), then you can afford to have a bit of detailed information, such as in this **ESSELUNGA** vehicle seen in Florence, Italy.
 
 ![The ESSELUNGA logo uses the Akceler typeface designed by Andrej Dieneš](../uploads/50222879726_479fd24d74_k.jpg "The ESSELUNGA logo uses the Akceler typeface designed by Andrej Dieneš")
+
+The Akceler typeface can be found for purchase from various foundries but freely available. You can see here the glyphs provided in the bold form.
+
+![Akceler typeface bold](../uploads/screenshot-2020-08-27-at-17.36.34.png "Akceler typeface bold")
+
+
 
 ## Parked Lorry - time to ponder
 
@@ -56,6 +62,8 @@ DHL (and Deutsche Post) have created their own font called 'Delivery' and you ca
 > Delivery was developed exclusively for DHL, Deutsche Post and Deutsche Post DHL Group. It is available for anyone involved in the design of our marketing and communications materials. While it will be automatically installed on staff computers, it is also available for download and distribution to agencies and other service providers in the download section at the end of this guide.
 
 I was amazed to find that you can download this font with full instructions. Thanks DHL. 
+
+![Here is the 'Delivery' typeface from DHL](../uploads/screenshot-2020-08-27-at-17.37.35.png "Here is the 'Delivery' typeface from DHL")
 
 ## Red Lorry Yellow Lorry
 
