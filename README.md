@@ -1,5 +1,11 @@
 # Template for a web site and blog using Jekyll and NetlifyCMS
 
+## Watch the YouTube playlist
+
+You may find it easier to watch the videos that I have made available on YouTube:
+
+[Go to YouTube](https://www.youtube.com/playlist?list=PL45AD0XX_t1JSPP-PjTZJ9f9Q2Cb87i5C)
+
 ## Usage
 
 This is a template set up for students to begin their own web site. The template is created by Chris Jennings and is based on various Jekyll themes.
@@ -8,246 +14,91 @@ This is a template set up for students to begin their own web site. The template
 
 https://commonmark.org/help/tutorial/
 
+Although the main content is built with markdown and converted to HTML automatically, you won't need to actually write in markdown, unless you want to. The site is set up to use a content management system (CMS) so that posting new content and setting up the site can be done through a web interface.
+
 ## Steps to get working with this template
 
 ### In Github
 
-- After creating an account on GitHub, you first need to create new repository by cloning this template.
+- Create an account on [GitHub][6a43c620]
+- After creating an account on GitHub, you first need to create new repository by cloning this template: https://github.com/publisha/blogbldr
 - You will now have a name for the repository and your GitHub username.
 - Keep the GitHub window open in your browser (because we will need to come back to this in a short while)
 
+  [6a43c620]: https://github.com "Go to the Github web site"
+
 ### Netlify is where we build your site
+
 - In another browser tab, go to [netlify.com](https://www.netlify.com)
 - **Login** with your GitHub credentials
 - create a `New Site with Git`
-- put in the name of your GitHub repository
+- put in the name of the GitHub repository that you created above.
 - Your GitHub repository will be built as a web site with a randomly chosen URL. Something like `wiggly_eel.netlify.app`.
-- Now change the first part of this URL to something that you want. In other words, the wiggly_eel part can change to something that has now been taken (eg: *mylifeintext.netlify.app*)
+- Now change the first part of this URL to something that you want. In other words, the wiggly_eel part can change to something that has not been taken (eg: *mylifeintext.netlify.app*)
 - Keep the Netlify window open and do not sign out
 
-### GitHub is where the files are hosted.
+### GitHub is where the files are located and updated.
+
 Netlify needs to have permission to take your files from GitHub and build the site every time you make changes. Netlify needs 2  codes - an ID and a secret.
 
-Now in Github, go to your GitHub account and on the left side at the bottom find `OAuth Apps`. In here you need to add a new app and after putting in the details you should be provided with a **Client ID** and a **Client Secret**. We need these 2 items in Netlify.
+Now in Github, go to your GitHub account and on the left side at the bottom find `OAuth Apps`. In here you need to add a new app and after putting in the details you should be provided with a **Client ID** and a **Client Secret**. We need these 2 items in Netlify. Now go back to the Netlify window.
 
 ### In Netlify
+
 I hope you can see why I suggested keeping the 2 browser windows / tabs open now.
-- Go to Site Settings > Access control >Scroll to the bottom and select OAuth > GitHub.
-- Paste in here the 2 codes from GitHub, **Client ID** and **Client Secret**
+- Go to Site Settings > Access control > Scroll to the bottom and select OAuth > GitHub.
+- Paste in here the 2 codes from GitHub, **Client ID** and **Client Secret**. Once you have entered these codes we need to go back to GitHub to make some essential settings so that the system knows about your chosen URL / web site name. So back to the GitHub window then.
 
 ### Back in Github you can now make some basic edits
 
+You can edit a few settings directly in GitHub so we can begin using the CMS for the other settings. The minimum settings that need changing are in 2 files:
 
-## Configure
+#### In the Admin folder
 
-Open `_config.yml` in a text editor to change most of the blog's settings.
-
-If a variable in this document is marked as "optional", disable the feature by removing all text from the variable.
-
-
-### Site configuration
-Configure as your own website in `_config.yml`:
+In the _admin_ folder find `config.yml` You need to edit some lines in this file.
 
 ```YAML
-  baseurl: ""
-  url: "https://username.github.io"
+backend:
+  name: github
+  repo: githubusername/yourrepositoryname # Path to your GitHub repository
+  branch: master # Branch to update (master by default)
+  site_domain: yoursite.netlify.app #Your site on netlify
+  use_graphql: true
+
+publish_mode: editorial_workflow
+show_preview_links: true
+display_url: https://yoursite.netlify.app
+logo_url: https://yoursite.netlify.app/uploads/face.jpg
 ```
 
-### Tags configurations
+Wherever you see `yoursite` change to the name of your site created on Netlify.
 
-You also need to edit the placeholder site url in the file called _mdwriter.cson. This is at line 34 in that file. This will make it easier to select and re-use tags for your posts.
+Also on line 3 change the repo path. This will be the GitHub username followed by your repository name.
+
+#### In the root of the code list
+
+Next look for the file called `_config.yml`. In this file you need to edit The URL by changing `yoursite` again, and the repository username and repository name.
+
 
 ```YAML
-  urlForTags: 'https://yoursite.netlify.app/tags.json'
+url: "https://yoursite.netlify.app"
+repository: yourusername/yourrepository
 ```
 
-Please configure this before using the student blog.
+### Using the CMS to add more Settings
 
-### Meta and Branding
+Once these changes have been made in Github, you can now go to your new site and begin to add some further details through the CMS.
 
-Meta variables hold basic information about your Jekyll site which will be used throughout the site and as meta properties for search engines, browsers, and the site's RSS feed.
+At the top right in the navigation bar of your site you should see a pencil icon. Click this and after authenticating (just for one time) you should then see the editor user interface. You need to select the item labelled _Settings_ under the **Collections** heading on the left. The important settings are found under the _General Critical Settings for your web site_ heading. Go ahead and dig into here, because this is where you name your site and put in the banner image and logo. You will come back this, but right now you need to understand how the changes are saves and published.
 
-Change these variables in `_config.yml`:
+## Saving and Publishing
 
-```yml
-title: My Student Blog                 # Name of website
-avatar: assets/img/triangle.png        # Path of avatar image, to be displayed in the site header
-description: My blog posts             # Short description, primarily used by search engines
-```
+When adding or editing any content through the CMS you will see the `Save` button in the control bar at the top of the editor page. This will save the new entry or setting but it will not be published to the web site yet. To confirm the change, you need to `Set Status` to `Ready` and then use the `Publish` button. For the Settings, this isn't very useful, but when you are posting a new article to your blog, you can save and then come back later to finish the article before finalising. You will notice a `View Preview` link; this gives you the ability to see the post before it goes live to your site.
 
-### Customizing text
+### Workflow
 
-#### Footer and Header's text
+When changes have been made you will see a `Workflow` item in the top bar. From here you can see items that are _Draft_, _In Review_ or _Ready_. The interface allows for you to **drag** the items across to make those changes.
 
-Customize your site header/footer with these variables in `_config.yml`:
+## The Settings
 
-```yml
-    header_text: Welcome to my Student blog
-    header_feature_image: assets/img/sample3.png
-    footer_text: Copyright 2019 - Your Name
-```
-
-#### Localisation string
-
-Change localization string variables in `_config.yml`.
-
-English text used in the template has been grouped  so you can quickly change labels to suit your needs.
-
-```yml
-     str_follow_on: "Follow on"
-     str_rss_follow: "Follow RSS feed"
-     str_email: "Email"
-     str_next_post: "Next post"
-     str_previous_post: "Previous post"
-     str_next_page: "Next"
-     str_previous_page: "Prev"
-     str_continue_reading: "Continue reading"
-     str_javascript_required_disqus: "Please enable JavaScript to view comments."
-```
-
-
-### Other features
-
-This site uses a Jekyll framework and so works with [liquid language](https://shopify.github.io/liquid/) tags usually represented by:
-
-```
-{{ liquid.tag | filter }}
-```
-
-These are useful to render your jekyll files.
-You can learn more about them on [shopify's doc](https://help.shopify.com/themes/liquid/basics)
-
-### Footer's icons
-
-Display the site's icon from [Font Awesome](https://fortawesome.github.io/Font-Awesome/) in the footer.
-All icon variables should be your username enclosed in quotes (e.g. "username") in `_config.yml`.
-
-### Comments (via Disqus)
-
-Optionally, if you have a [Disqus](https://disqus.com/) account, you can show a comments section below each post.
-
-To enable Disqus comments, add your [Disqus shortname](https://help.disqus.com/customer/portal/articles/466208)
-to your project's `_config.yml` file:
-
-```yml
-     disqus_shortname: my_disqus_shortname
-```
-
-### Google Analytics
-
-To enable Google Analytics, add your [tracking ID](https://support.google.com/analytics/answer/1032385)
-to `_config.yml` like so:
-
-```yml
-     google_analytics: UA-NNNNNNNN-N
-```
-
-### Post excerpt
-
-The [excerpt](https://jekyllrb.com/docs/posts/#post-excerpts) are the first lines of an article that is display on the blog page.
-The length of the excerpt has a default of around `250` characters and can be manually set in the post using:
-
-```yml
----
-layout: post
-title: Sample Page
-excerpt_separator: <!--more-->
----
-
-some text in the excerpt
-<!--more-->
-... rest of the text not shown in the excerpt ...
-```
-
-The html is stripped out of the excerpt so it only displays text.
-
-## Layout
-Please refer to the [Jekyll docs for writing posts](https://jekyllrb.com/docs/posts/).
-Non-standard features are documented below.
-
-### Layout: Post
-
-This are the basic features you can use with the  `post` layout.
-
-```yml
----
-layout: post
-title: Hello World       			            # Title of the page
-date: 2019-08-06
-header_feature_image: images/hello.jpg 	 	# Add a feature-image to the post
-tags: [holiday, Oxford, life]             # to group the posts
-published: false                          # change to true to make live
----
-```
-
-### Layout: Page
-
-The _page_ layout has more features explained here.
-
-```yml
----
-layout: page
-title: "About"
-subtitle: "This is a subtitle"  # Optional sub title for the page
-header_feature_image: "images/sample.png"
-permalink: /about.html          # Set a permalink your your page
-hide: true                # Prevent the page title to appear in the navbar
-icon: "fa-search"         # Will Display only the fontawesome icon (here: fa-search) and not the title
-tags: [sample, markdown, html]
----
-```
-
-The *hide* only hides your page from the navigation bar, it is however still generated and can be access through its link.
-Use the `_draft` folder to keep files from being generated on your site or put `published: false` in the metadata.
-
-### Layout: Default
-
-This layout includes the head, navigation bar and footer around your content. All pages will use this layout unless you create a different one.
-
-## Special pages
-
-All special pages besides the "home" one are stored in the `pages` folder,
-they will appear in the navigation bar unless you set `hide: true` in the front matter.
-
-Here are the documentation for the other feature pages that can be added through `_config.yml`.
-
-### Home
-
-This page is  used as the home page of the template (in the `index.html`). It displays the list of article in `_posts`.
-You can use this layout in another page (adding a title to it will make it appear in the navigation bar).
-
-### Search
-
-The search feature is based on [Simple-Jekyll-search](https://github.com/christian-fei/Simple-Jekyll-Search) there is a `search.json` file that will create a list of all of the site posts, pages and portfolios.
-
-Then there's a `search.js` displaying the formatted results entered in the `search.html` page.
-
-The search page can be hidden with the `hide` option. You can remove the icon by removing `icon`:
-
-```yml
----
-layout: search
-title: Search
-icon: "search"
----
-```
-
-### Tags
-
-Tags should be placed between `[]` in your post metadata. Separate each tag with a comma.
-Tags are recommended for posts and portfolio items.
-
-For example:
-
-```yml
----
-layout: post
-title: Markdown and HTML
-tags: [Oxford, Publishing, Cinema]
----
-```
-
-> Tags are case sensitive `Tag_nAme` ≠ `tag_name`
-
-All the tags will be listed in `tags.html` with a link toward the pages or posts.
-The Tag page can be hidden with the `hide` option. You can remove the icon by removing `icon` (like for the search page).
+The settings available are self explanatory, so it would be wise to try these things and see what changes are made. be aware that it does take up to 10 minutes for changes to work their way through to the live site.
