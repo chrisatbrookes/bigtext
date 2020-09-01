@@ -18,10 +18,10 @@ layout: default
 
 </article>
 
-<!-- Disqus -->
-{% if site.data.social.disqus_shortname > "" %}
+<!-- Commentbox -->
+{% if site.data.social.commentbox_id %}
 <div class="comments">
-  {% include disqus.html %}
+  {% include comments.html %}
 </div>
 {% endif %}
 
