@@ -49,8 +49,3 @@ $(document).ready(function() {
   $("#user").html("<a class='editlink' title='With permission through GitHub' href='/admin/#/collections/posts/entries{{ page.path | remove: ".md" | remove: "_posts" }}'>" + "edit this page" + "</a>");
 }
 </script>
-
-<script>
-	import commentBox from 'commentbox.io';
-	commentBox('{{ site.data.social.commentbox_id }}');
-</script>
