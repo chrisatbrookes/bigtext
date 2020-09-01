@@ -224,11 +224,11 @@ collections:
             name: "facebook"
             widget: "string"
             required: false
-          - label: "Your Disqus account for people to comment"
-            name: "disqus_shortname"
+          - label: "Your CommentBox account for people to comment"
+            name: "commentbox_id"
             widget: "string"
             required: false
-            hint: "Once you have a disqus account and you added this website you can put the short name in here."
+            hint: "Once you have a CommentBox account and you added this website you can put the id for your web site in here."
           - label: "Do you have a Flickr account?"
             name: "flickr"
             widget: "string"
