@@ -125,12 +125,13 @@ collections:
             name: "bannerheight"
             widget: "select"
             options:
-              - { label: "Shallow", value: "10" }
-              - { label: "Normal", value: "20" }
-              - { label: "Deep", value: "40" }
-              - { label: "Very Deep", value: "50" }
-              - { label: "Very Very Deep", value: "60" }
-            hint: "You can choose to have the home page banner image deep but remember the image needs to be high enough originally to fill the space. The height is NOT fixed but responsive and relative to the size of the viewport. If you choose a shallow setting then the optional text may not fit into that space. If you see green colour strips above and below the image, then your banner image is not high enough for your chosen setting."
+              - { label: "Shallow", value: "10vmax" }
+              - { label: "Normal", value: "20vmax" }
+              - { label: "Deep", value: "40vmax" }
+              - { label: "Very Deep", value: "50vmax" }
+              - { label: "Very Very Deep", value: "60vmax" }
+              - { label: "Full Window", value: "100vh" }
+            hint: "You can choose to have the home page banner image deep but remember the image needs to be high enough originally to fill the space. The height is NOT fixed but responsive and relative to the size of the viewport. If you choose a shallow setting then the optional text may not fit into that space. If you see green colour strips above and below the image, then your banner image is not high enough for your chosen setting. If you choose Full Window, the image will fill the home page initially; in this case you will need a header text."
 
           - label: "Logo Image top left"
             name: "logo"
