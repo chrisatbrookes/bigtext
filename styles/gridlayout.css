@@ -22,7 +22,7 @@
       -ms-flex: auto;
           flex: 0 0 1;
   max-width: 850px;
-  min-width: 180px;
+  min-width: 280px;
 }
 
 .home .posts {
@@ -31,15 +31,15 @@
   display:flex;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
-      -ms-flex-flow: row nowrap;
-          flex-flow: row nowrap;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
   -ms-flex-pack: distribute;
       justify-content: center;
   padding:2px 12px;
   }
 
 .home .post-teaser {
-  flex-basis: 400px;
+  flex-basis: 370px;
   padding: 8px !important;
   margin: 10px;
   border:1px solid silver;
