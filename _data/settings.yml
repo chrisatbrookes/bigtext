@@ -6,8 +6,8 @@ header_feature_image: ../uploads/bigtext.jpg
 bannerheight: 20vmax
 logo: ../uploads/btlogo.png
 favicon: ../uploads/favicon.ico
-gridlayout: true
-fixednavbar: true
+gridlayout: false
+fixednavbar: false
 upzoom: true
 items:
   - name: Chris Jennings
