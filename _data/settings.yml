@@ -6,7 +6,7 @@ header_feature_image: ../uploads/bigtext.jpg
 bannerheight: 20vmax
 logo: ../uploads/btlogo.png
 favicon: ../uploads/favicon.ico
-gridlayout: true
+gridlayout: false
 fixednavbar: true
 upzoom: true
 items:
