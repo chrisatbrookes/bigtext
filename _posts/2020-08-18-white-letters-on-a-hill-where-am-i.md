@@ -4,6 +4,7 @@ title: White letters on a Hill - Where am I?
 date: 2020-08-18T08:04:41.392Z
 header_feature_image: ../uploads/file-20171107-6733-1vd7y81.jpg
 caption: The Hollywood sign in 1978
+comments: false
 tags:
   - Landscape
   - Signage
@@ -33,3 +34,5 @@ A company called [ShyFonts](https://www.dafont.com/hollywood-hills.font) have cr
 ![The sign in 1978. Workers prepare to lower the last letter of the old Hollywood sign that had stood at the site since the 1920s.  Wally Fong/AP Photo](../uploads/file-20171107-6733-1vd7y81.jpg "The sign in 1978. Workers prepare to lower the last letter of the old Hollywood sign that had stood at the site since the 1920s.  Wally Fong/AP Photo")
 
 ![The new version under construction in 1978](../uploads/hollywood.jpg "The new version under construction in 1978")
+
+<div class="video-box"><iframe width="560" height="315" src="https://www.youtube.com/embed/xsiD81nNpEc?rel=0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
