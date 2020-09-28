@@ -728,8 +728,8 @@ align-items: center;
 
 .branding img.avatar {
   display: block;
-    height: 50px;
-    width: 50px;
+    max-height: 45px;
+    /* width: 50px; */
     margin: 0 0.5em;
     padding:0;
 }
