@@ -24,6 +24,8 @@ The FedEX logo used a bold form of the Futura typeface although there is a bit o
 
 ## Big Lorries provide a Lot of Space
 
+![test pic](../uploads/STP00196.jpg "FedEx logo showing the internal space arrow")
+
 Think of it as a moving billboard. The lorries we see on our motorways are often huge. We don't want those big polluting vehicles coming into our cities and so, the distribution centres are usually somewhere out on the ring road. But a big lorry canvas is a space for the large scale typography to reach you as it flashes by at 60mph.
 
 ![Simba. I don't know this brand. I took this photo in South Africa](../uploads/50151044306_378a3476aa_k.jpg "Simba. I don't know this brand. I took this photo in South Africa")
@@ -62,7 +64,7 @@ DHL (and Deutsche Post) have created their own font called 'Delivery' and you ca
 
 > Delivery was developed exclusively for DHL, Deutsche Post and Deutsche Post DHL Group. It is available for anyone involved in the design of our marketing and communications materials. While it will be automatically installed on staff computers, it is also available for download and distribution to agencies and other service providers in the download section at the end of this guide.
 
-I was amazed to find that you can download this font with full instructions. Thanks DHL. 
+I was amazed to find that you can download this font with full instructions. Thanks DHL.
 
 ![Here is the 'Delivery' typeface from DHL](../uploads/screenshot-2020-08-27-at-17.37.35.png "Here is the 'Delivery' typeface from DHL")
 
