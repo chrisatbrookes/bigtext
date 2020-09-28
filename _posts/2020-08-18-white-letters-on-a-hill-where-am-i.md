@@ -4,9 +4,11 @@ title: White letters on a Hill - Where am I?
 date: 2020-08-18T08:04:41.392Z
 header_feature_image: ../uploads/file-20171107-6733-1vd7y81.jpg
 caption: The Hollywood sign in 1978
+comments: true
 tags:
   - Landscape
   - Signage
+  - Travel
 ---
 The Hollywood sign in Santa Monica, California is a well known landmark and has an interesting history, because it was originally put up in 1923 as an advertisement for land available for building homes in an area known as *Hollywoodland*.
 
