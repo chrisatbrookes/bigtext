@@ -40,8 +40,6 @@ The Akceler typeface can be found for purchase from various foundries but freely
 
 ![Akceler typeface bold](../uploads/screenshot-2020-08-27-at-17.36.34.png "Akceler typeface bold")
 
-
-
 ## Parked Lorry - time to ponder
 
 With local delivery lorries they are often parked up while the delivery takes place. In this case the decal designer has more scope to tell a story.
@@ -71,3 +69,5 @@ I was amazed to find that you can download this font with full instructions. Tha
 ## Red Lorry Yellow Lorry
 
 Have you noticed how so many lorries are yellow?
+
+![Simulated handwriting with a more formal slab serif](../uploads/3dee4af0-b6e0-41c2-9ce3-c46d95363e17.jpeg)
