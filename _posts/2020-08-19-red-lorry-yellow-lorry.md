@@ -70,9 +70,8 @@ I was amazed to find that you can download this font with full instructions. Tha
 
 Have you noticed how so many lorries are yellow?
 
-The Red Lorry / Yellow Lorry expression is often used to help teach the English Language [^1]
+The Red Lorry / Yellow Lorry expression is known as a tongue twister [^1]
 
-[^1]: Here is an example web site that used this expression (https://learnenglishkids.britishcouncil.org/tongue-twisters/red-lorry-yellow-lorry)
-
+[^1]:[ https://en.wikipedia.org/wiki/Tongue-twister](https://en.wikipedia.org/wiki/Tongue-twister)
 
 ![Simulated handwriting with a more formal slab serif](../uploads/3dee4af0-b6e0-41c2-9ce3-c46d95363e17.jpeg "Simulated handwriting with a more formal slab serif")
