@@ -1,0 +1,1 @@
+{"version":3,"sources":["../src/ColorPreview.js"],"names":["InlineSelectPreview","value"],"mappings":";;;;;;;AAAA;;;;AAEe,SAASA,mBAAT,OAAwC;AAAA,MAATC,KAAS,QAATA,KAAS;AACrD,sBAAO,6CAAMA,KAAN,CAAP;AACD","sourcesContent":["import React from \"react\";\n\nexport default function InlineSelectPreview({ value }) {\n  return <div>{value}</div>;\n}\n"],"file":"ColorPreview.js"}
