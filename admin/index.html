@@ -37,6 +37,12 @@ CMS.registerEditorComponent({
   }
 });
 </script>
+  <script>
+  import { ColorControl, ColorPreview } from "netlify-cms-widget-colorpicker";
+
+CMS.registerWidget("color", ColorControl, ColorPreview);
+  </script>
+  
 </body>
 <link rel="stylesheet" href="responsive.css">
 </html>
