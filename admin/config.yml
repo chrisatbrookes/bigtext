@@ -109,6 +109,11 @@ collections:
             widget: "string"
             required: false
             hint: "This will appear above the main image on the home page."
+          - label: "Colour of the text in the Banner"
+            name: "bannertextcolor"
+            widget: "color"
+            required: false
+            hint: "The default colour is white"
           - label: "Text in the Footer"
             name: "footer_text"
             widget: "string"
