@@ -10,7 +10,7 @@ tags:
   - Design
   - Graphics
 ---
-RedLorryYellowLorryRedLorryYellowLorryRedLorryYellowLorryRedLorryYellowLorry. Try saying that very quickly and see if your tongue gets all twisted up. Yes, this post is all about lorry (*trucks* if you are from the USA) typography.
+RedLorryYellowLorryRedLorryYellowLorryRedLorryYellowLorryRedLorryYellowLorry. Try saying that very quickly and see if your tongue gets all twisted up. Yes, this post is all about lorry (*truck* if you are from the USA) typography.
 
 Big lorries need big type. That's true but another thing that is also true is that companies use their own distribution transport to advertise themselves and a recent trend is to come up with a catchy slogan that goes beyond just the name of the company.
 
@@ -23,8 +23,6 @@ The FedEX logo used a bold form of the Futura typeface although there is a bit o
 ![FedEx logo showing the internal space arrow](../uploads/c833uexa9n5q5uuoyj6g3i-970-80.jpg "FedEx logo showing the internal space arrow")
 
 ## Big Lorries provide a Lot of Space
-
-![test pic](../uploads/STP00196.jpg "FedEx logo showing the internal space arrow")
 
 Think of it as a moving billboard. The lorries we see on our motorways are often huge. We don't want those big polluting vehicles coming into our cities and so, the distribution centres are usually somewhere out on the ring road. But a big lorry canvas is a space for the large scale typography to reach you as it flashes by at 60mph.
 
