@@ -1,59 +1,7 @@
-* {
-margin:0;
-box-sizing: border-box;
-}
-
-.hero {
-background-image: url("../images/landscape.jpeg");
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
-height:100vh;
-display:flex;
-align-items: center;
-justify-content: center;
-flex-direction: column;
-}
-
-.hero img {
-max-width: 200px;
-}
-
 body {
-font-family: georgia, serif;
-}
 
-img {
-max-width:100%;
 }
 
 h1 {
-margin: 8px 0 4px 0;
-color:white;
-background-color: rgba(35, 77, 252, 0.7);
-padding: 8px;
-}
-
-p {
-margin-bottom: 12px;
-
-}
-
-main {
-margin:20px auto;
-display:flex;
-flex-direction: row;
-flex-wrap: wrap;
-justify-content: center;
-}
-
-.info {
-
-flex-basis: 400px;
-margin:0 10px;
-}
-
-.gallery {
-flex-basis: 300px;
 
 }
