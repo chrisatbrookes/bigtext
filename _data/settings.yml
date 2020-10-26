@@ -9,7 +9,4 @@ favicon: ../uploads/favicon.ico
 gridlayout: true
 fixednavbar: true
 upzoom: true
-items:
-  - name: About Chris Jennings
-    siteurl: /aboutme
-    tab: true
+items: []
