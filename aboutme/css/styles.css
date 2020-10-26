@@ -1,11 +1,13 @@
 
 * {
-
+box-sizing: border-box;
   margin:0;
 }
 
 body {
 margin: 20px 30px;
+font-family: "New Century Schoolbook", Palatino, georgia, serif;
+
 }
 
 h1 {
