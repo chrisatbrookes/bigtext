@@ -1,10 +1,10 @@
 title: How big can Big text be?
 description: Looking at how type is used in gigantic lettering
-header_text: Lettering for Giants
-header_text_color: "#ffffff"
 footer_text: Copyright 2020 Chris Jennings
 header_feature_image: ../uploads/bigtext.jpg
-bannerheight: 10vmax
+header_text: Lettering for Giants
+header_text_color: "#fcffb5"
+bannerheight: 100vh
 logo: ../uploads/btlogo.png
 favicon: ../uploads/favicon.ico
 gridlayout: true
