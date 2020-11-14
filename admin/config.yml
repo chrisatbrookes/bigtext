@@ -38,14 +38,22 @@ collections:
           name: "header_feature_image",
           widget: "image",
           required: false,
-          hint: "This image will appear at the top of your post",
+          hint: "This image will appear at the top of your post in the listing but over the feature image on the article's page.",
+        }
+      - {
+          label: "Title text colour over the feature image",
+          name: "title_color",
+          widget: "color",
+          required: false,
+          default: "#ffffff",
+          hint: "The text is wjite by default, but you can change the colour to get more contrast against the image.",
         }
       - { label: "Caption", name: "caption", widget: "string", required: false }
       - {
           label: "Comments",
           name: "comments",
           widget: "boolean",
-          default: true,
+          default: false,
           hint: "Only if you setup your Disqus account will this allow comments. If you don't want comments for this post then turn this off.",
         }
       - {
