@@ -11,5 +11,6 @@ gridlayout: true
 fixednavbar: true
 upzoom: true
 items:
-  - name: About Chris Jennings
+  - name: About me
     siteurl: /aboutme
+    tab: true
