@@ -40,7 +40,8 @@ collections:
     layout: page
   content:
     output: true
-    layout: content
+    layout: page
+
 # BUILD SETTINGS
 kramdown:
   input: GFM
