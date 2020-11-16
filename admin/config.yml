@@ -46,7 +46,7 @@ collections:
           widget: "color",
           required: false,
           default: "#ffffff",
-          hint: "The text is wjite by default, but you can change the colour to get more contrast against the image.",
+          hint: "The text is white by default, but you can change the colour to get more contrast against the image.",
         }
       - { label: "Caption", name: "caption", widget: "string", required: false }
       - {
@@ -140,6 +140,38 @@ collections:
           name: "header_feature_image",
           widget: "image",
           required: false,
+        }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "otherpages"
+    label: "Other Pages" # Used in the UI
+    label_singular: "Other Page"
+    description: "This is where you add another section to your site - maybe recipes or photos"
+    folder: "_otherpages/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    delete: true
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: "uploads"
+    public_folder: "../uploads"
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "other" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - {
+          label: "Featured Image",
+          name: "header_feature_image",
+          widget: "image",
+          required: false,
+        }
+      - {
+          label: "Title text colour over the feature image",
+          name: "title_color",
+          widget: "color",
+          required: false,
+          default: "#ffffff",
+          hint: "The text is white by default, but you can change the colour to get more contrast against the image.",
         }
       - { label: "Body", name: "body", widget: "markdown" }
 

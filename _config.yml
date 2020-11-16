@@ -38,7 +38,9 @@ collections:
   homepageitems:
     output: true
     layout: page
-
+  otherpages:
+    output: true
+    layout: otherpages
 # BUILD SETTINGS
 kramdown:
   input: GFM
