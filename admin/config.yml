@@ -143,11 +143,11 @@ collections:
         }
       - { label: "Body", name: "body", widget: "markdown" }
 
-  - name: "otherpages"
-    label: "Other Pages" # Used in the UI
-    label_singular: "Other Page"
+  - name: "content"
+    label: "Content - Your choice" # Used in the UI
+    label_singular: "Content Page"
     description: "This is where you add another section to your site - maybe recipes or photos"
-    folder: "_otherpages/" # The path to the folder where the documents are stored
+    folder: "_content/" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     delete: true
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
@@ -155,8 +155,16 @@ collections:
     public_folder: "../uploads"
     editor:
       preview: false
+    nested:
+      depth: 100 # max depth to show in the collection tree
+      summary: "{{title}}" # optional summary for a tree node, defaults to the inferred title field
     fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "other" }
+      - {
+          label: "Layout",
+          name: "layout",
+          widget: "hidden",
+          default: "content",
+        }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - {
