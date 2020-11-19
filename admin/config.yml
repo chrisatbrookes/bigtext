@@ -164,20 +164,6 @@ collections:
         }
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Publish Date", name: "date", widget: "datetime" }
-      - {
-          label: "Featured Image",
-          name: "header_feature_image",
-          widget: "image",
-          required: false,
-        }
-      - {
-          label: "Title text colour over the feature image",
-          name: "title_color",
-          widget: "color",
-          required: false,
-          default: "#ffffff",
-          hint: "The text is white by default, but you can change the colour to get more contrast against the image.",
-        }
       - { label: "Body", name: "body", widget: "markdown" }
 
   # uncomment out the following collection block if you want to use a home page rather than the blog on the home page. This needs to be done after you have changed the settings in the _config.yml file in the root of your project. DO NOT UNCOMMENT this paragraph!
