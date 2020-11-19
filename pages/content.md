@@ -1,8 +1,9 @@
 ---
 title: This is something else
+subtitle: This is a subtitle
 permalink: /recipes/
 date: 2020-11-19T18:50:31.663Z
-show: false
+show: true
 ---
 ![Cover](../uploads/ikeastore.jpg)
 
