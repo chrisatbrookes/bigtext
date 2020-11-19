@@ -144,7 +144,7 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
 
   - name: "content"
-    label: "Content - Your choice" # Used in the UI
+    label: "Content - Further Pages" # Used in the UI
     label_singular: "Content Page"
     description: "This is where you add another section to your site - maybe recipes or photos"
     folder: "_content/" # The path to the folder where the documents are stored
