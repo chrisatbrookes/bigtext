@@ -1,6 +1,7 @@
 ---
 title: This is something else
 subtitle: This is a subtitle
+layout: contenthome
 permalink: /recipes/
 date: 2020-11-19T18:50:31.663Z
 show: true
