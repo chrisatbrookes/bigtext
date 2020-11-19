@@ -2,7 +2,7 @@
 layout: contenthome
 title: Whatever you like
 permalink: /content/   #you can change this
-published: false
+published: true
 ---
 
 Here is an introduction to my special site
