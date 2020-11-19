@@ -10,7 +10,7 @@ tags:
   - Hot
 ---
 
-This is just some sample content to show you waht _markdown_ looks like. There are variations on this basic recipe, sometimes with no sauce, sometimes with other vegetables. The most common variant in Greece may include zucchini (courgette), part-fried potatoes or sautéed mushrooms in addition to the eggplant.
+This is just some sample content to show you what _markdown_ looks like. There are variations on this basic recipe, sometimes with no sauce, sometimes with other vegetables. The most common variant in Greece may include zucchini (courgette), part-fried potatoes or sautéed mushrooms in addition to the eggplant.
 
 ![Moussaka](../uploads/moussaka.jpg)
 
