@@ -1,10 +1,8 @@
----
+----
 layout: contenthome
-title: This is something else
-permalink: /recipes/
-published: false
-date: 2020-11-19T17:58:58.087Z
-show: true
+title: Whatever you like
+permalink: /content/   #you can change this
+published: true
 ---
 
 Here is an introduction to my special site
