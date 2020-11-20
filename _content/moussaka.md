@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: page
 title: Moussaka
 date: 2019-10-19
 published: true
