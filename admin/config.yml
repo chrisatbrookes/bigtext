@@ -134,12 +134,6 @@ collections:
           default: false,
           hint: "If this is switched on, the link will show on the menubar to the right.",
         }
-      - {
-          label: "Featured Image",
-          name: "header_feature_image",
-          widget: "image",
-          required: false,
-        }
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Layout"
         name: "layout"
