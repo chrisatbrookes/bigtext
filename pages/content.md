@@ -1,9 +1,9 @@
 ---
-layout: contenthome
 title: This is something else
-permalink: /recipes/
+layout: contenthome #this will be a 'raw' page with styles coming from content.css
+permalink: /content/
 date: 2020-11-19T18:50:31.663Z
-show: true
+show: false
 ---
 ![Cover](../uploads/ikeastore.jpg)
 
