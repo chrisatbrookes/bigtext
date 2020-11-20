@@ -1,7 +1,7 @@
 ---
 title: Moussaka
 date: 2019-10-19
-layout: page
+layout: content
 published: true
 order: 1
 tags:
