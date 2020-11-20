@@ -1,6 +1,6 @@
 ---
 title: This is something else
-permalink: /recipes/
+permalink: /content/
 date: 2020-11-19T18:50:31.663Z
 show: true
 layout: page
