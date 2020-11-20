@@ -2,7 +2,7 @@
 title: Heading up the content items
 permalink: /content/
 date: 2020-11-19T18:50:31.663Z
-show: true
+show: false
 layout: contenthome
 ---
 You can use **markdown** to write this text and this will automatically be converted to `HTML`.
