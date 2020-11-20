@@ -143,13 +143,8 @@ collections:
       - { label: "Body", name: "body", widget: "markdown" }
       - label: "Layout"
         name: "layout"
-        widget: "select"
-        options:
-          - { label: "Standard Page", value: "page" }
-          - {
-              label: "Unstyled Content, you can use the content.css file to style yourself.",
-              value: "contenthome",
-            }
+        widget: "string"
+        default: "page"
 
   # uncomment out the following collection block if you want to create a new pages inside the content block. DO NOT UNCOMMENT this paragraph!
 

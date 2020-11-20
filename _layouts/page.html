@@ -15,8 +15,6 @@ layout: default
     {{ content | replace: "../uploads", "/uploads" }}
   </section>
 
-  {%- include content.html -%}
-
   <!-- Tag list for portfolio -->
   {%- capture tag_list -%}{{ page.tags | join: "|"}}{%- endcapture -%}
   {%- include tags_list.html tags=tag_list -%}
