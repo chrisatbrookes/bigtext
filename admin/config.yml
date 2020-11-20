@@ -117,15 +117,6 @@ collections:
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
-      - label: "Layout"
-        name: "layout"
-        widget: "select"
-        options:
-          - { label: "Standard Page", value: "page" }
-          - {
-              label: "Unstyled Content, you can use the content.css file to style yourself.",
-              value: "contenthome",
-            }
       - { label: "Title", name: "title", widget: "string" }
       - {
           label: "Subtitle",
@@ -150,6 +141,15 @@ collections:
           required: false,
         }
       - { label: "Body", name: "body", widget: "markdown" }
+      - label: "Layout"
+        name: "layout"
+        widget: "select"
+        options:
+          - { label: "Standard Page", value: "page" }
+          - {
+              label: "Unstyled Content, you can use the content.css file to style yourself.",
+              value: "contenthome",
+            }
 
   # uncomment out the following collection block if you want to create a new pages inside the content block. DO NOT UNCOMMENT this paragraph!
 
@@ -166,16 +166,6 @@ collections:
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
-      - label: "Layout"
-        name: "layout"
-        widget: "select"
-        options:
-          - { label: "Standard Page", value: "page" }
-          - { label: "Standard Post Type Page", value: "post" }
-          - {
-              label: "Unstyled Content, you can use the content.css file to style yourself.",
-              value: "content",
-            }
       - label: "Title"
         name: "title"
         widget: "string"
@@ -185,6 +175,15 @@ collections:
       - label: "Body"
         name: "body"
         widget: "markdown"
+      - label: "Layout"
+        name: "layout"
+        widget: "select"
+        options:
+          - { label: "Standard Page", value: "page" }
+          - {
+              label: "Unstyled, you can use the content.css file to style yourself.",
+              value: "content",
+            }
 
   # uncomment out the following collection block if you want to use a home page rather than the blog on the home page. This needs to be done after you have changed the settings in the _config.yml file in the root of your project. DO NOT UNCOMMENT this paragraph!
 

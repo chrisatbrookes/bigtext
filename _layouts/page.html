@@ -12,7 +12,7 @@ layout: default
   </header>
 
   <section class="post-content">
-	{{ content }}
+    {{ content | replace: "../uploads", "/uploads" }}
   </section>
 
 
