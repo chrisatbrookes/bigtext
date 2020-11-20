@@ -1,14 +1,14 @@
 ---
-layout: page
 title: What is this site?
 subtitle: What did I do and why did I do it?
 permalink: /about/
 date: 2020-06-29T15:36:12.231Z
-header_feature_image: ../uploads/50235951793_97be78e24a_k.jpg
+show: true
+header_feature_image: ""
+layout: page
 published: true
 tags: null
 description: null
-show: true
 ---
 This site is all about large text; text that is meant to be read from a distance.
 
