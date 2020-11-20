@@ -1,9 +1,9 @@
 ---
+layout: contenthome
 title: This is something else
-layout: contenthome #this will be a 'raw' page with styles coming from content.css
 permalink: /recipes/
 date: 2020-11-19T18:50:31.663Z
-show: false
+show: true
 ---
 ![Cover](../uploads/ikeastore.jpg)
 
