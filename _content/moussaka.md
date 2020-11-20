@@ -1,5 +1,5 @@
 ---
-layout: content #this will be a basic page with styles coming from content.css
+layout: post
 title: Moussaka
 date: 2019-10-19
 published: true
