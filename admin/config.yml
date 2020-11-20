@@ -117,7 +117,14 @@ collections:
     editor:
       preview: false
     fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+      - { 
+          label: "Layout", 
+          name: "layout", 
+          widget: "select", 
+          options:
+            - { label: "Standard Page", value: "page" }
+            - { label: "Unstyled Content, you can use the content.css file to style yourself.", value: "contenthome"}
+        }
       - { label: "Title", name: "title", widget: "string" }
       - {
           label: "Subtitle",
@@ -145,28 +152,31 @@ collections:
 
   # uncomment out the following collection block if you want to create a new pages inside the content block. DO NOT UNCOMMENT this paragraph!
 
-  # - name: "content"
-  #   label: "Content - Further Pages" # Used in the UI
-  #   label_singular: "Content Page"
-  #   description: "This is where you add another section to your site - maybe recipes or photos. The pages willbe styled with the content.css file so you need to edit this for your own styling."
-  #   folder: "_content/" # The path to the folder where the documents are stored
-  #   create: true # Allow users to create new documents in this collection
-  #   delete: true
-  #   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-  #   media_folder: "/uploads"
-  #   public_folder: "../uploads"
-  #   editor:
-  #     preview: false
-  #   fields: # The fields for each document, usually in front matter
-  #     - {
-  #         label: "Layout",
-  #         name: "layout",
-  #         widget: "hidden",
-  #         default: "content",
-  #       }
-  #     - { label: "Title", name: "title", widget: "string" }
-  #     - { label: "Publish Date", name: "date", widget: "datetime" }
-  #     - { label: "Body", name: "body", widget: "markdown" }
+  - name: "content"
+    label: "Content - Further Pages" # Used in the UI
+    label_singular: "Content Page"
+    description: "This is where you add another section to your site - maybe recipes or photos. The pages will be styled with the content.css file so you need to edit this for your own styling."
+    folder: "_content/" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    delete: true
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    media_folder: "/uploads"
+    public_folder: "../uploads"
+    editor:
+      preview: false
+    fields: # The fields for each document, usually in front matter
+      - { 
+          label: "Layout", 
+          name: "layout", 
+          widget: "select", 
+          options:
+            - { label: "Standard Page", value: "page" }
+            - { label: "Standard Post Type Page", value: "post" }
+            - { label: "Unstyled Content, you can use the content.css file to style yourself.", value: "content"}
+        }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Body", name: "body", widget: "markdown" }
 
   # uncomment out the following collection block if you want to use a home page rather than the blog on the home page. This needs to be done after you have changed the settings in the _config.yml file in the root of your project. DO NOT UNCOMMENT this paragraph!
 
