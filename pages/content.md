@@ -3,7 +3,7 @@ title: This is something else
 permalink: /content/
 date: 2020-11-19T18:50:31.663Z
 show: true
-layout: page
+layout: contenthome
 ---
 ![Cover](../uploads/ikeastore.jpg)
 
