@@ -38,9 +38,9 @@ collections:
   homepageitems:
     output: true
     layout: page
-  # content:
-  #   output: true
-  #   layout: page
+  content:
+    output: true
+    layout: page
 
 # BUILD SETTINGS
 kramdown:
