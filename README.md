@@ -1,3 +1,11 @@
+---
+layout: default
+title: This is the readme file
+published: false
+show: false
+---
+
+
 # Template for a web site and blog using Jekyll and NetlifyCMS
 
 ## Watch the YouTube playlist
