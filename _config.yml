@@ -61,8 +61,9 @@ permalink: pretty
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
 github: [metadata]
-# if you want the blog to be below the home page through a link  - comment out the following line and then add the hash to the next line. In other words you want to include the blog/index and exclude the index on the home page.
+# if you want the blog to be below the home page through a link  - comment out the following line and then add the hash to the next 2 lines. In other words you want to include the blog/index and exclude the index on the home page.
 # exclude: ["blog/index.html"]
+paginate_path: "blog/page:num"
 exclude: ["index.html"]
 
 # Note you will then want to add the blog to the menubar through the CMS
