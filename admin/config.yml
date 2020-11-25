@@ -176,29 +176,29 @@ collections:
 
   # uncomment out the following collection block if you want to use a home page rather than the blog on the home page. This needs to be done after you have changed the settings in the _config.yml file in the root of your project. DO NOT UNCOMMENT this paragraph!
 
-  - name: "homepageitems"
-    label: "Home Page Blocks" # Used in the UI
-    label_singular: "Block"
-    description: "You can have up to 4 blocks on the home page with an image and some text. You cannot add any here but you can unpublsh any of the 4. To edit the home page main text and image, edit the page called home in the pages."
-    folder: "_homepageitems/" # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    delete: true
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    media_folder: "/uploads"
-    public_folder: "../uploads"
-    editor:
-      preview: false
-    fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Publish Date", name: "date", widget: "datetime" }
-      - {
-          label: "Featured Image",
-          name: "header_feature_image",
-          widget: "image",
-          required: false,
-        }
-      - { label: "Body", name: "body", widget: "markdown" }
+  # - name: "homepageitems"
+  #   label: "Home Page Blocks" # Used in the UI
+  #   label_singular: "Block"
+  #   description: "You can have up to 4 blocks on the home page with an image and some text. You cannot add any here but you can unpublsh any of the 4. To edit the home page main text and image, edit the page called home in the pages."
+  #   folder: "_homepageitems/" # The path to the folder where the documents are stored
+  #   create: true # Allow users to create new documents in this collection
+  #   delete: true
+  #   slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+  #   media_folder: "/uploads"
+  #   public_folder: "../uploads"
+  #   editor:
+  #     preview: false
+  #   fields: # The fields for each document, usually in front matter
+  #     - { label: "Layout", name: "layout", widget: "hidden", default: "page" }
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Publish Date", name: "date", widget: "datetime" }
+  #     - {
+  #         label: "Featured Image",
+  #         name: "header_feature_image",
+  #         widget: "image",
+  #         required: false,
+  #       }
+  #     - { label: "Body", name: "body", widget: "markdown" }
 
   - label: "Settings"
     name: "data"
