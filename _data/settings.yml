@@ -4,7 +4,7 @@ footer_text: Copyright 2020 Chris Jennings
 header_feature_image: ../uploads/bigtext.jpg
 header_text: Lettering for Giants
 header_text_color: "#fcffb5"
-bannerheight: 60vmax
+bannerheight: 40vmax
 logo: ../uploads/btlogo.png
 favicon: ../uploads/favicon.ico
 gridlayout: false
