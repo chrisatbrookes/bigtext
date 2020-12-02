@@ -10,4 +10,6 @@ favicon: ../uploads/favicon.ico
 gridlayout: false
 fixednavbar: true
 upzoom: true
-items: []
+items:
+  - name: About me
+    siteurl: /aboutme
