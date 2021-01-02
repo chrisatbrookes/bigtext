@@ -35,3 +35,9 @@ So, whatever you think of the IKEA logo and the flat-pack culture, you must admi
 Here is another image of an anonymous store, showing those little serifs.
 
 ![Image from Sky News.](../uploads/ikeastore.jpg "Image from Sky News.")
+
+Johan Stenebo write a book about IKEA:
+
+[The Truth About IKEA](https://www.amazon.co.uk/Johan-Stenebo/e/B004TZJEN6/ref=dp_byline_cont_book_1): How IKEA Built Its Global Furniture Brand Paperback – 25 Nov. 2010
+
+![The Truth about IKEA](../uploads/81mgusz-1tl.jpg)
