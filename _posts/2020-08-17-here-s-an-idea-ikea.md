@@ -26,7 +26,15 @@ The font used in the logo is not publicly available but you can see that it does
 
 ![Here is a glyph set for FuturaPress](../uploads/screenshot-2020-08-17-at-11.42.31.png "Here is a glyph set for FuturaPress")
 
+Johan Stenebo write a book about IKEA:
+
+[The Truth About IKEA](https://www.amazon.co.uk/Johan-Stenebo/e/B004TZJEN6/ref=dp_byline_cont_book_1): How IKEA Built Its Global Furniture Brand Paperback – 25 Nov. 2010
+
+![The Truth About IKEA](../uploads/81mgusz-1tl.jpg)
+
 ![London IKEA in 2003](../uploads/50222995496_dd20a310e5_o.jpg "London IKEA in 2003")
+
+
 
 The image shown above was taken in 2003 and since then the IKEA brand has changed  - subtly. You can see here that back then there were no serifs at all and the font was a heavy version of 'Futura'. You may also notice that back then that the building was yellow and the logo was in blue. Now the store has changed colour (see below).
 
@@ -35,9 +43,3 @@ So, whatever you think of the IKEA logo and the flat-pack culture, you must admi
 Here is another image of an anonymous store, showing those little serifs.
 
 ![Image from Sky News.](../uploads/ikeastore.jpg "Image from Sky News.")
-
-Johan Stenebo write a book about IKEA:
-
-[The Truth About IKEA](https://www.amazon.co.uk/Johan-Stenebo/e/B004TZJEN6/ref=dp_byline_cont_book_1): How IKEA Built Its Global Furniture Brand Paperback – 25 Nov. 2010
-
-![The Truth about IKEA](../uploads/81mgusz-1tl.jpg)
