@@ -3,7 +3,7 @@ description: Looking at how type is used in gigantic lettering
 footer_text: Copyright 2021 Chris Jennings
 header_feature_image: ../uploads/bigtext.jpg
 header_text: ""
-header_text_color: "#fcffb5"
+header_text_color: ""
 bannerheight: 20vmax
 navbarheight: 35px
 logo: ../uploads/btlogo.png
