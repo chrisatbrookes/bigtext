@@ -1,13 +1,17 @@
 ---
 layout: default
 ---
-<article id="page-content" {%- if page.header_feature_image > "" -%}class="feature-image"{%- endif -%}>
+<article id="page-content" {%- if page.header_feature_image> "" -%}class="feature-image"{%- endif -%}>
   <header id="main"><span id="user"></span>
-      <h1 style="color: {{ page.title_color }};" id="{{ page.title | escape | url_encode }}" class="title">{{ page.title }}</h1>
-        {%- include post_info.html post=page -%}
+    <h1 style="color: {{ page.title_color }};" id="{{ page.title | escape | url_encode }}" class="title">{{ page.title
+      }}</h1>
+    {%- include post_info.html post=page -%}
   </header>
   <section class="post-content">
-      {{ content | replace: "../uploads", "/uploads" }}
+    {{ content | replace: "../uploads", "/uploads" }}
+    {%- if page.caption -%}
+    <p><b>Banner image on this page:</b> {{ page.caption }}</p>
+    {%- endif -%}
   </section>
   <!-- Social media shares -->
   {%- include share_buttons.html -%}
@@ -25,5 +29,5 @@ layout: default
 
 <!-- Post navigation -->
 {%- if site.post_navigation -%}
-  {%- include post_nav.html -%}
+{%- include post_nav.html -%}
 {%- endif -%}
