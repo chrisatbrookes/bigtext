@@ -254,14 +254,14 @@ collections:
               - { label: "Very Very Deep", value: "60vmax" }
               - { label: "Hero", value: "100vh" }
             hint: "You can choose to have the home page banner image deep but remember the image needs to be high enough originally to fill the space. The height is NOT fixed but responsive and relative to the size of the viewport. If you choose a shallow setting then the optional text may not fit into that space. If you see green colour strips above and below the image, then your banner image is not high enough for your chosen setting. If you choose Hero, the image will fill the home page initially; in this case you will need a header text. It is advised that you fix the Navigation bar when choosing Hero."
-        - label: "Height of Navigation menubar"
-            name: "navbarheight"
-            widget: "select"
-            options:
-              - { label: "Shallow", value: "35px" }
-              - { label: "Normal", value: "55px" }
-              - { label: "Deep", value: "85px" }
-            hint: "You have 3 choices for the menubar. The logo at the left will almost fill the height so make sure this isn't too small (it will resize to fit). Also make sure this logo isn't too long otherwise you may run out of wisth for the menu items."
+          - label: "Height of Navigation menubar"
+              name: "navbarheight"
+              widget: "select"
+              options:
+                - { label: "Shallow", value: "35px" }
+                - { label: "Normal", value: "55px" }
+                - { label: "Deep", value: "85px" }
+              hint: "You have 3 choices for the menubar. The logo at the left will almost fill the height so make sure this isn't too small (it will resize to fit). Also make sure this logo isn't too long otherwise you may run out of wisth for the menu items."
 
           - label: "Logo Image top left"
             name: "logo"
