@@ -1,14 +1,14 @@
 ---
+header_feature_image: ""
 title: What is this site?
 subtitle: What did I do and why did I do it?
 permalink: /about/
 date: 2020-06-29T15:36:12.231Z
-show: true
-header_feature_image: ""
 layout: page
 published: true
 tags: null
 description: null
+show: true
 ---
 This site is all about large text; text that is meant to be read from a distance.
 
@@ -34,7 +34,7 @@ I put the full logo here:
 
 ![BigText logo](../uploads/btlogo.png)
 
-And here is the image from the banner in all its glory. I'll be using this on the cover of the book that will be published from 10 of my blog posts. Watch this space!
+And here is the image from the banner in all its glory. I'll be using this on the cover of the book that will be published from 6 of my blog posts. Watch this space!
 
 ![](../uploads/bigtext.jpg "BigText of course")
 
