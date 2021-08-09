@@ -1,6 +1,6 @@
 ---
-header_feature_image: ""
 title: What is this site?
+header_feature_image: ../uploads/50235951793_97be78e24a_k.jpg
 subtitle: What did I do and why did I do it?
 permalink: /about/
 date: 2020-06-29T15:36:12.231Z
