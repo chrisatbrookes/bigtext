@@ -818,11 +818,14 @@ align-items: center;
       opacity: .9;
       position: fixed;
       right:0;
-      top: 55px;
-      border-right:20px solid white;
+      top: 55px;  /* this will be changed in the settings */
     }
 
-    nav ul.hide {
+    .site-header nav li {
+        padding-right: 20px;
+      }
+
+    nav ul.willhide {
         font-size: 0;
         margin: 0;
         opacity: 0;
