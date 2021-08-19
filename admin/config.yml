@@ -8,7 +8,7 @@ backend:
 publish_mode: editorial_workflow
 show_preview_links: true
 display_url: https://bigtext.netlify.app
-logo_url: https://bigtext.netlify.app/uploads/btlogo.png
+logo_url: https://bigtext.netlify.app/uploads/btlogo.png #This image will display at login time
 
 # Do NOT edit below this line
 
@@ -268,7 +268,7 @@ collections:
               - { label: "Shallow", value: "35px" }
               - { label: "Normal", value: "55px" }
               - { label: "Deep", value: "85px" }
-            hint: "You have 3 choices for the menubar. The logo at the left will almost fill the height so make sure this isn't too small (it will resize to fit). Also make sure this logo isn't too long otherwise you may run out of wisth for the menu items."
+            hint: "You have 3 choices for the menubar. The logo at the left will almost fill the height so make sure this isn't too small (it will resize to fit). Also make sure this logo isn't too long otherwise you may run out of width for the menu items."
 
           - label: "Logo Image top left"
             name: "logo"
