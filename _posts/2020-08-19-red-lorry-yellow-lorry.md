@@ -2,7 +2,7 @@
 layout: post
 title: Red Lorry - Yellow Lorry
 date: 2020-08-19T09:01:39.658Z
-header_feature_image: ../uploads/redlorry_yellowlorry.jpg
+image: ../uploads/redlorry_yellowlorry.jpg
 caption: Sainsburys distribution lorry in the UK
 comments: true
 tags:
