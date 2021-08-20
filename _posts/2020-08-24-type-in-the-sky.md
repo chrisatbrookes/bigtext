@@ -2,7 +2,7 @@
 layout: post
 title: Type in the Sky
 date: 2020-08-20T11:24:48.694Z
-header_feature_image: ../uploads/pevely_dairy_company_plant_office_building.jpg
+image: ../uploads/pevely_dairy_company_plant_office_building.jpg
 tags:
   - Buildings
   - Signage
