@@ -5,8 +5,8 @@
   {%- assign items = site.content | sort: 'order' -%}
     {%- for content in items limit:30 -%}
     <div class="post-teaser">
-        {%- if content.header_feature_image -%}
-        {%- assign image_url = recipe.header_feature_image -%}
+        {%- if content.image -%}
+        {%- assign image_url = recipe.image -%}
         <div class="post-img">
             <a aria-label="{{ project.title }}" href="{{ project.url | relative_url }}">
               {%- if content.caption -%}
