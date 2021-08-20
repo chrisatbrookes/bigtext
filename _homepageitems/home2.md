@@ -2,7 +2,7 @@
 layout: page
 title: Block 2
 date: 2020-07-19
-header_feature_image: /uploads/placeholder2.jpg
+image: /uploads/placeholder2.jpg
 published: true
 order: 2
 ---
