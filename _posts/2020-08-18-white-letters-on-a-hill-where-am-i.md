@@ -2,7 +2,7 @@
 layout: post
 title: White letters on a Hill - Where am I?
 date: 2020-08-18T08:04:41.392Z
-header_feature_image: ../uploads/file-20171107-6733-1vd7y81.jpg
+image: ../uploads/file-20171107-6733-1vd7y81.jpg
 title_color: "#f0ffae"
 caption: The Hollywood sign in 1978
 comments: true
