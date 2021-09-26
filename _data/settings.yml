@@ -4,8 +4,8 @@ footer_text: Copyright 2021 Chris Jennings
 header_feature_image: ../uploads/bigtext.jpg
 header_text: ""
 header_text_color: ""
-bannerheight: 10vmax
-navbarheight: 55px
+bannerheight: 50vmax
+navbarheight: 85px
 logo: ../uploads/btlogo.png
 favicon: ../uploads/favicon.ico
 gridlayout: false
