@@ -4,14 +4,17 @@ footer_text: Copyright 2021 Chris Jennings
 header_feature_image: ../uploads/bigtext.jpg
 header_text: ""
 header_text_color: ""
-bannerheight: 20vmax
+bannerheight: 100vh
 navbarheight: 55px
 logo: ../uploads/btlogo.png
 favicon: ../uploads/favicon.ico
-gridlayout: false
-fixednavbar: false
+gridlayout: true
+fixednavbar: true
 upzoom: true
 items:
   - name: About me
     siteurl: /aboutme
+    tab: true
+  - name: Publisha
+    siteurl: https://publisha.org
     tab: true
