@@ -199,7 +199,7 @@ img, embed, object, video {
 }
 
 iframe {
-    max-width: 100% !important;
+    max-width: 70% !important;
     padding: 0 10%;
     margin:0 auto 12px auto !important;
     display:block !important;
