@@ -193,11 +193,16 @@ a {
     text-decoration: none
 }
 
-iframe, img, embed, object, video {
+img, embed, object, video {
     max-width: 100%;
     padding: 0 10%;
-    margin:6px auto;
-    display:block;
+}
+
+iframe {
+    max-width: 100% !important;
+    padding: 0 10%;
+    margin:0 auto 12px auto !important;
+    display:block !important;
 }
 
 img[align=left] {
