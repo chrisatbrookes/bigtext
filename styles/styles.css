@@ -195,7 +195,8 @@ a {
 
 iframe, img, embed, object, video {
     max-width: 100%;
-    padding: 0 10%
+    padding: 0 10%;
+    margin:6px auto;
 }
 
 img[align=left] {
