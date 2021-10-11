@@ -33,8 +33,6 @@ Johan Stenebo write a book about IKEA:
 
 ![The Truth About IKEA](../uploads/81mgusz-1tl.jpg)
 
-<div style="height:50px;width:100%;background-color:blue;display:block;"></div>
-
 ![London IKEA in 2003](../uploads/50222995496_dd20a310e5_o.jpg "London IKEA in 2003")
 
 The image shown above was taken in 2003 and since then the IKEA brand has changed  - subtly. You can see here that back then there were no serifs at all and the font was a heavy version of 'Futura'. You may also notice that back then that the building was yellow and the logo was in blue. Now the store has changed colour (see below).
