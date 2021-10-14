@@ -1,6 +1,7 @@
 backend:
   name: github
   repo: chrisatbrookes/bigtext # Path to your GitHub repository
+  open_authoring: true
   branch: master # Branch to update (master by default)
   site_domain: bigtext.netlify.app #Your site on netlify
   use_graphql: true
