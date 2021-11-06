@@ -12,6 +12,6 @@ gridlayout: true
 fixednavbar: true
 upzoom: true
 items:
-  - name: Publisha
-    siteurl: https://publisha.org
-    tab: true
+  - name: Aboutme
+    siteurl: /aboutme/
+    tab: false
