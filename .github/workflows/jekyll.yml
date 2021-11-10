@@ -1,15 +1,15 @@
 name: build site with jekyll and deploy on github pages
 
+
 on:
-  push: 
-    branches: 
-      - main
   pull_request:
-    branches: 
-      - main
+    branches:
+      - deploy
+    types: [closed]
 
 jobs:
   jekyll:
+    if: github.event.pull_request.merged == true
     runs-on: ubuntu-18.04 # ubuntu-latest is now 20.04 and doesn't seem to work
     steps:
       # checkout code
