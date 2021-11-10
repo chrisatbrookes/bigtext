@@ -15,7 +15,7 @@ We must offer some admiration for those people who paint the text on the road. T
 
 ## Typeface
 
-Most often the type face used will be sans serif, but I have one example here where there is a slab serif used.
+Most often the type face used will be sans serif, but I have one example here where there is a slab serif used. I havn't spotted this elsewhere so maybe this is just an odd *unprofessional* one?
 
 ![The number 10 on the road with a slab serif font](/uploads/img_1266.jpeg "The number 10 on the road with a slab serif font")
 
