@@ -4,7 +4,7 @@ title: Type on the Road
 date: 2021-11-07T14:44:35.426Z
 image: ../uploads/a40_raw.jpg
 title_color: "#f33030"
-caption: Direction A40. Photo by Chris Jennings
+caption: Direction A40. Photo copyright by Chris Jennings
 comments: false
 tags:
   - Fonts
