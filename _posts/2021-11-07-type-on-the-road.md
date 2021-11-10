@@ -3,7 +3,7 @@ layout: post
 title: Type on the Road
 date: 2021-11-07T14:44:35.426Z
 image: ../uploads/a40_raw.jpg
-title_color: "#ffffff"
+title_color: "#f33030"
 caption: Direction A40. Photo by Chris Jennings
 comments: false
 tags:
@@ -23,7 +23,7 @@ Most often the type face used will be sans serif, but I have one example here wh
 
 The letters don't last forever and so they do need repainting from time to time. When there is a new lettering project then chalk is used to outline the letters to guide the *painter*. Using the term painter may be a misnommer since paint brushes are not involved!
 
-![Bus lane in white](/uploads/img_0642.jpeg)
+![Bus lane in white](/uploads/img_0642.jpeg "Bus lane")
 
 ## How do they do It?
 
