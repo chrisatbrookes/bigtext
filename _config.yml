@@ -57,7 +57,7 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-permalink: none
+permalink: :year-:month-:day-:slug
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
 exclude: [vendor]
