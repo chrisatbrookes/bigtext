@@ -1,4 +1,4 @@
-t# SITE CONFIGURATION
+# SITE CONFIGURATION
 baseurl: ''  #leave this alone
 url: "https://bigtext.netlify.app"   #change this to yours
 repository: chrisatbrookes/bigtext
@@ -57,7 +57,7 @@ kramdown:
     block:
       line_numbers: true
       start_line: 1
-
+permalink: pretty
 plugins: [jekyll-paginate, jekyll-seo-tag, jekyll-sitemap]
 exclude: [".jekyll-cache", "Gemfile", "README.md"]
 exclude: [vendor]
