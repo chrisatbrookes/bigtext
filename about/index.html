@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"><!-- javascripts for fancybox -->
+<script src="/assets/js/jquery-1.10.2.min.js"></script>
+<script src="/assets/js/jquery.fancybox.pack.js">
+</script>
+<script src="/assets/js/jquery.fancybox-media.js">
+</script>
+<script src="/assets/js/jquery.fancy-photoset.js">
+</script>
+<script src="/assets/js/navbar.js">
+</script>
+<script src="https://unpkg.com/commentbox.io/dist/commentBox.min.js"></script>
+<!--Add fonts from Googlefonts-->
+
+<!-- slab serif -->
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500;600&family=Roboto:ital,wght@0,400;0,500;1,400;1,500&display=swap" rel="stylesheet">
+<!-- font-family: 'Roboto Slab', serif; -->
+
+<!-- serif -->
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro:ital,wght@0,400;0,600;1,400;1,600&display=swap" rel="stylesheet">
+<!-- font-family: 'Source Serif Pro', serif; -->
+<!--basic stylesheet-->
+<link rel="stylesheet" href="/styles/styles.css">
+<!--icon font-->
+<link rel="stylesheet" href="/assets/css/fontawsome.css">
+<!--get the images to enlarge-->
+<link rel="stylesheet" href="/assets/css/jquery.fancybox.css"><!--grid stylesheet-->
+<link rel="stylesheet" href="/styles/gridlayout.css"><!--typography stylesheet-->
+<link rel="stylesheet" href="/styles/typography.css">
+
+<!-- these styles are added from the typography Settings --><link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,600;1,300;1,400&display=swap"
+    rel="stylesheet">
+<style>
+    body {
+        font-family: "Josefin Sans", "Trebuchet MS", Helvetica, Arial, sans-serif;
+    }
+</style><!-- headings --><style>
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        font-family: 'Roboto Slab', Georgia, serif;
+    }
+</style><!-- navbar fixed or not? --><style>
+    body {
+        padding-top: 55px;
+    }
+
+    .site-header {
+        position: fixed;
+    }
+</style><!-- add banner and navbar height from the config settings -->
+
+  <style>
+    .home #main {
+      height: 20vmax;
+    }
+
+    .site-header {
+      height: 55px;
+    }
+
+    nav ul {
+      top: 55px;
+    }
+    
+    .branding img.avatar {
+    	max-height: calc(55px - 6px);
+    }
+
+    @media screen and (max-width: 450px) {
+
+      .home #main {
+        height: 20vmin;
+      }
+    }
+  </style>
+
+  <link rel="shortcut icon" href="/uploads/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/uploads/favicon.ico" type="image/x-icon">
+
+
+  <!-- Canonical -->
+  <link rel="canonical" href="https://bigtext.netlify.app/about/">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <title> | What is this site?</title><!-- Begin Jekyll SEO tag v2.7.1 -->
+<meta name="generator" content="Jekyll v4.2.1" />
+<meta property="og:title" content="What is this site?" />
+<meta property="og:locale" content="en_gb" />
+<link rel="canonical" href="https://bigtext.netlify.app/about/" />
+<meta property="og:url" content="https://bigtext.netlify.app/about/" />
+<meta property="og:image" content="https://bigtext.netlify.app/uploads/clouds.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-06-29T15:36:12+00:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://bigtext.netlify.app/uploads/clouds.jpg" />
+<meta property="twitter:title" content="What is this site?" />
+<script type="application/ld+json">
+{"url":"https://bigtext.netlify.app/about/","@type":"WebSite","image":"https://bigtext.netlify.app/uploads/clouds.jpg","headline":"What is this site?","dateModified":"2020-06-29T15:36:12+00:00","datePublished":"2020-06-29T15:36:12+00:00","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<!-- Open Graph -->
+<meta property="og:type" content="website"><meta property="og:image" content="https://bigtext.netlify.app/uploads/50235951793_97be78e24a_k.jpg"><!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://bigtext.netlify.app/about/">
+<meta name="twitter:site" content="@pageboy"><meta name="twitter:title" content="What is this site?"><meta name="twitter:description" content="Looking at how type is used in gigantic lettering"><meta name="twitter:image" content="https://bigtext.netlify.app/uploads/50235951793_97be78e24a_k.jpg"><meta name="twitter:creator" content="@pageboy">
+
+  <!-- style the featured page image --><style>
+    #main {
+      background-repeat: no-repeat;
+      background-color: rgb(61, 172, 147);
+      background-position: center;
+      background-image: url('/uploads/clouds.jpg');
+      text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.9) !important;
+    }
+
+    article header {
+      text-align: center;
+    }
+  </style>
+  
+</head>
+
+  <body>
+    <header class="site-header">
+
+    <!-- Logo and title -->
+	<div class="branding">
+		<a href="/">
+			<img alt="logo img" class="avatar" src="/uploads/btlogo.png" />
+		</a>
+
+		<h1 class="site-title">
+			<a aria-label="Big text" href="/">
+        Big text
+      </a>
+		</h1>
+	</div>
+
+    <!-- Toggle menu -->
+    <nav class="clear">
+    <a aria-label="pull" id="pull" class="toggle" href="#">
+    <i class="fa fa-bars fa-lg"></i>
+    </a>
+
+    <!-- Menu -->
+    <ul class="willhide">
+      <li >
+        <a class="clear" aria-label="Home" title="Home" href="/">Home</a>
+    </li><li >
+          <a class="clear" aria-label="Aboutme" title="Aboutme" href="/aboutme/">
+            Aboutme
+          </a>
+        </li><li  class="active" >
+                <a class="clear" aria-label="What is this site?" title="What is this site?" href="/about/">What is this site?</a>
+            </li><li >
+                <a class="clear" aria-label="Search" title="Search" href="/search/"><i class="fa fa-search" aria-hidden="true"></i></a>
+            </li><li>
+          <a class="clear" aria-label="Editor" title="Editor" href="/admin/" target="_blank">
+            <i class="fa fa-pencil"></i>
+          </a>
+        </li>
+    </ul>
+
+	</nav>
+</header>
+
+    <div class="content">
+      <article id="page-content"class="feature-image">
+  <header id="main">
+      <h1 id="What is this site?" class="title">What is this site?</h1><h2 class="subtitle">What did I do and why did I do it?</h2></header>
+
+  <section class="post-content">
+    <p>This site is all about large text; text that is meant to be read from a distance.</p>
+
+<p>A bit like the <em>handwriting</em> script on this French supermarket.</p>
+
+<p><img src="/uploads/50235940643_ac1b24212c_k.jpg" alt="Supermarket in Matignon France" title="Supermarket in Matignon France" /></p>
+
+<p>I am on the lookout for examples (good and bad) of the way text can be seen in the environment where the scale is often presented at sizes that might be described as big, large and gigantic.</p>
+
+<p>What examples are we likely to find here:</p>
+
+<ul>
+  <li>posters</li>
+  <li>billboards</li>
+  <li>buildings</li>
+  <li>signage</li>
+  <li>livery - transport / lorries / planes / ships</li>
+</ul>
+
+<h2 id="my-logo-and-banner-image">My logo and banner image</h2>
+
+<p>I decided to create my logo and banner image from text and used the full space (the square in the logo and the wide) for the text. The 2 words <em>Big</em> and <em>Text</em> in contrasting colours - bright and dramatic. I have opted to use the <strong><em>deep</em></strong> setting for the banner image and not put the text in the banner since it seem unnecessary and detracts from the image. The logo itself is a simplified rendition of the word <strong>big</strong> and the letter <strong>T.</strong> I also made a square version of this for the favicon which I then built with the wonderful web site <a href="favicon.io">favicon.io</a></p>
+
+<p>I put the full logo here:</p>
+
+<p><img src="/uploads/btlogo.png" alt="BigText logo" /></p>
+
+<p>And here is the image from the banner in all its glory. I’ll be using this on the cover of the book that will be published from 6 of my blog posts. Watch this space!</p>
+
+<p><img src="/uploads/bigtext.jpg" alt="" title="BigText of course" /></p>
+
+<h3 id="the-name-of-my-site--project">The name of my site / project</h3>
+
+<p>I decided to name my site <em>BigText</em> using CamelCase; and if you don’t know what that means just look at the way the word camelcase is displayed here.</p>
+
+<h3 id="one-more-thing">One more thing</h3>
+
+<p>The image in the banner for this about page is from a photograph taken in the printmaking department at Oxford Brookes University of letterpress wood type. The image shows uppercase, lowercase and numbers in the same drawer. This type would normally be used for printing posters, such as the one that finishes this page.</p>
+
+<p><img src="/uploads/1024px-challenge_to_houdini-_regent_theatre-_salford_lccn2014636909.jpg" alt="Letterpress poster from 1904 (John Heywood Ltd., Printers.; Houdini, Harry, 1874-1926.)" title="Letterpress poster from 1904" /></p>
+
+<p>I have attempted to identify some of the typefaces used in the poster by looking in the early years section of the <a href="http://www.identifont.com">Identify</a> web site.</p>
+
+  </section>
+
+  <!-- Tag list for portfolio --><footer>
+  <div class="tag-list"></div>
+</footer></article>
+
+    </div>
+    <footer class="site-footer">
+    <p class="text">Copyright 2021 Chris Jennings</p>
+            <div class="footer-icons">
+                <ul>
+                <!-- Social icons from Font Awesome, if enabled --><li>
+	<a href="https://instagram.com/pagebuoy" title="Follow on Instagram">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li><li>
+	<a href="https://twitter.com/pageboy" title="Follow on Twitter" class="type">
+        <span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+            <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li><li>
+	<a href="https://github.com/chrisatbrookes/bigtext" title="Check out the code on GitHub">
+		<span class="fa-stack fa-lg">
+            <i class="fa fa-circle fa-stack-2x"></i>
+						<i class="fa fa-github fa-stack-1x fa-inverse"></i>
+        </span>
+	</a>
+</li></ul>
+            </div>
+</footer>
+
+    <script>
+        $(document).ready(function() {
+            $('.fancybox').fancybox();
+        });
+    </script>
+    <script>
+    jQuery(document).ready(function($) {
+    	$("img:not([title])").each(function() {
+    			if($(this).attr("alt") != '') $(this).parent().attr("title", $(this).attr("alt"))
+    			else $(this).parent().attr("title", $(this).attr("src"));
+    	});
+    });
+    </script>
+    <script>
+        $("a[href$='.jpg'],a[href$='.jpeg'],a[href$='.png'],a[href$='.gif']").attr('rel', 'gallery').attr('class', 'postimage').fancybox();
+    </script>
+
+		<!-- here follows a script to put the alt tag to a caption under the images -->
+
+<script>
+$(".post-content img").each(function() {
+    var imageCaption = $(this).attr("alt");
+    if (imageCaption != '') {
+        $("<span class='caption'>" + imageCaption +
+            "</span>").insertAfter(this);
+    }
+});
+</script><!-- add a link to the image itself -->
+<script>
+$(document).ready(function() {
+  $('.post-content img').each(function ()
+  {
+     var currentImage = $(this);
+     currentImage.wrap("<a href='" + currentImage.attr("src") + "' </a>");
+  });
+});
+</script><!-- now follows the javascript to show that a post can be edited -->
+<script>
+  if (localStorage.getItem("netlify-cms-user") != '') {
+  var theuser = JSON.parse(localStorage.getItem("netlify-cms-user")).name;
+  $("#user").html("<a class='editlink' title='With permission through GitHub' href='/admin/#/collections/posts/entriespages/about'>" + "edit this page" + "</a>");
+}
+</script>
+
+
+
+  </body>
+</html>
